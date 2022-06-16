@@ -1,0 +1,3378 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-06-12T15:16:31Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/305570467",
+        "drinking_water": "no",
+        "emergency": "water_tank",
+        "name": "Gemeindeweiher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5350516,
+          49.2267569
+        ]
+      },
+      "id": "node/305570467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/440467237",
+        "emergency": "water_tank",
+        "water_tank:volume": "75000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9317104,
+          49.8320492
+        ]
+      },
+      "id": "node/440467237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1119840341",
+        "emergency": "water_tank",
+        "water_tank:volume": "100000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3447161,
+          49.5231168
+        ]
+      },
+      "id": "node/1119840341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788973572",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2220466,
+          49.7203234
+        ]
+      },
+      "id": "node/1788973572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788973595",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2247185,
+          49.7210705
+        ]
+      },
+      "id": "node/1788973595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1868286935",
+        "emergency": "water_tank",
+        "water_tank:volume": "82000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3690908,
+          49.5614834
+        ]
+      },
+      "id": "node/1868286935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2426971391",
+        "description": "Zisterne Rödelseer Str.",
+        "emergency": "water_tank",
+        "fire_hydrant:diameter": "Zisterne Rödelseer Str.",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2424858,
+          49.752991
+        ]
+      },
+      "id": "node/2426971391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2638421740",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1661278,
+          49.6035759
+        ]
+      },
+      "id": "node/2638421740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2749717431",
+        "access": "private",
+        "emergency": "water_tank",
+        "water_tank:volume": "30m^2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0231945,
+          49.6200684
+        ]
+      },
+      "id": "node/2749717431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3364600221",
+        "emergency": "water_tank",
+        "water_tank:volume": "60000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2334109,
+          49.5528652
+        ]
+      },
+      "id": "node/3364600221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3400082934",
+        "emergency": "water_tank",
+        "note": "Löschwasserbehälter 2x A-Ansaugstutzen",
+        "water_tank:volume": "260000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9377775,
+          49.4012275
+        ]
+      },
+      "id": "node/3400082934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3400083796",
+        "emergency": "water_tank",
+        "note": "Löschwasserbehälter 1x A-Ansaugstutzen",
+        "water_tank:volume": "100000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9326652,
+          49.3990892
+        ]
+      },
+      "id": "node/3400083796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3400200493",
+        "emergency": "water_tank",
+        "note": "Löscwasserbehälter ohne Saugstutzen",
+        "water_tank:volume": "100000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8920405,
+          49.4270187
+        ]
+      },
+      "id": "node/3400200493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3424607209",
+        "emergency": "water_tank",
+        "water_tank:volume": "120000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2218181,
+          49.3728998
+        ]
+      },
+      "id": "node/3424607209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3425060488",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2339785,
+          49.395642
+        ]
+      },
+      "id": "node/3425060488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3577365333",
+        "emergency": "water_tank",
+        "note": "Löschwasserbehälter",
+        "water_tank:volume": "80000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4842642,
+          49.8319499
+        ]
+      },
+      "id": "node/3577365333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3577389269",
+        "emergency": "water_tank",
+        "note": "Ansaugung mit TS 8/8 möglich ( Anschluss = A ) ",
+        "water_tank:volume": "80000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.467326,
+          49.828756
+        ]
+      },
+      "id": "node/3577389269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3578143970",
+        "emergency": "water_tank",
+        "note": "Behälter ist unter Spielplatz mit Ansagstutzen = A",
+        "water_tank:volume": "80000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4854605,
+          49.8200003
+        ]
+      },
+      "id": "node/3578143970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3756821347",
+        "emergency": "water_tank",
+        "fire_hydrant:type": "pond",
+        "water_tank:volume": "199m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.067952,
+          49.4436156
+        ]
+      },
+      "id": "node/3756821347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3913402237",
+        "emergency": "water_tank",
+        "water_tank:volume": "100000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7106775,
+          49.5567357
+        ]
+      },
+      "id": "node/3913402237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3913408557",
+        "emergency": "water_tank",
+        "water_tank:volume": "80000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7149878,
+          49.5558083
+        ]
+      },
+      "id": "node/3913408557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3993994081",
+        "emergency": "water_tank",
+        "water_tank:volume": "82000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.20076,
+          49.5730362
+        ]
+      },
+      "id": "node/3993994081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4050217342",
+        "emergency": "water_tank",
+        "note": "A-Sauganschluß",
+        "water_tank:volume": "75 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0716251,
+          49.6430366
+        ]
+      },
+      "id": "node/4050217342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4058389922",
+        "emergency": "water_tank",
+        "water_tank:volume": "201"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6911508,
+          49.5594413
+        ]
+      },
+      "id": "node/4058389922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063530740",
+        "emergency": "water_tank",
+        "note": "Zisterne 2 x Storz A",
+        "water_tank:volume": "200000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1907339,
+          49.5828869
+        ]
+      },
+      "id": "node/4063530740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4069638015",
+        "emergency": "water_tank",
+        "survey:date": "2019-05-22",
+        "water_tank:volume": "85 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1074454,
+          49.6252733
+        ]
+      },
+      "id": "node/4069638015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4069912610",
+        "emergency": "water_tank",
+        "water_tank:volume": "250000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2368321,
+          49.2571457
+        ]
+      },
+      "id": "node/4069912610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4069912617",
+        "emergency": "water_tank",
+        "water_tank:volume": "200000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2332815,
+          49.2580662
+        ]
+      },
+      "id": "node/4069912617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4140248064",
+        "emergency": "water_tank",
+        "water_tank:volume": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1027655,
+          49.6914119
+        ]
+      },
+      "id": "node/4140248064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4184998396",
+        "emergency": "water_tank",
+        "survey:date": "2016-05-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6823051,
+          49.4102298
+        ]
+      },
+      "id": "node/4184998396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4185000432",
+        "emergency": "water_tank",
+        "survey:date": "2016-05-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6811625,
+          49.4098389
+        ]
+      },
+      "id": "node/4185000432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4185014631",
+        "emergency": "water_tank",
+        "survey:date": "14.05.2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.683673,
+          49.4060727
+        ]
+      },
+      "id": "node/4185014631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4191602733",
+        "description": "500m3",
+        "emergency": "water_tank",
+        "fire_hydrant:type": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0427512,
+          49.7027893
+        ]
+      },
+      "id": "node/4191602733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4328327217",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4465402,
+          49.5023864
+        ]
+      },
+      "id": "node/4328327217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4556863634",
+        "emergency": "water_tank",
+        "survey:date": "2016-12-16",
+        "water_tank:volume": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7187617,
+          49.4875835
+        ]
+      },
+      "id": "node/4556863634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4637436896",
+        "description": "Wasserstemme Bibert",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.647018,
+          49.4113571
+        ]
+      },
+      "id": "node/4637436896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4724940492",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4818877,
+          49.5063456
+        ]
+      },
+      "id": "node/4724940492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4954873692",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7703831,
+          49.5892449
+        ]
+      },
+      "id": "node/4954873692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5002530040",
+        "description": "Vor Betriebsgebäude mit 2 Entnahmestellen.",
+        "emergency": "water_tank",
+        "fixme": "Details!",
+        "survey:date": "29.07.17",
+        "water_tank:volume": "144"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9657288,
+          49.7123322
+        ]
+      },
+      "id": "node/5002530040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5026326734",
+        "emergency": "water_tank",
+        "water_tank:volume": "10000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4155487,
+          49.3012939
+        ]
+      },
+      "id": "node/5026326734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5073652421",
+        "emergency": "water_tank",
+        "name": "Löschwasserbehälter",
+        "water_tank:volume": "200 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2794284,
+          49.4595643
+        ]
+      },
+      "id": "node/5073652421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5073796091",
+        "emergency": "water_tank",
+        "name": "Löschwasserbehälter",
+        "water_tank:volume": "83 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.304219,
+          49.4505236
+        ]
+      },
+      "id": "node/5073796091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5077366085",
+        "emergency": "water_tank",
+        "water_tank:volume": "6000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9038468,
+          49.5899011
+        ]
+      },
+      "id": "node/5077366085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5098461297",
+        "emergency": "water_tank",
+        "image": "https://ia601505.us.archive.org/7/items/20170906184139/2017-09-06_18-41-39.jpg",
+        "water_tank:volume": "22000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8871186,
+          49.5713007
+        ]
+      },
+      "id": "node/5098461297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5098461298",
+        "emergency": "water_tank",
+        "image": "https://ia601505.us.archive.org/7/items/20170906184139/2017-09-10_15-53-06.jpg",
+        "water_tank:volume": "100000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8880929,
+          49.5714303
+        ]
+      },
+      "id": "node/5098461298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5124750047",
+        "description": "Zisterne 2x A",
+        "emergency": "water_tank",
+        "water_tank:volume": "50000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0117582,
+          49.6134038
+        ]
+      },
+      "id": "node/5124750047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5162429752",
+        "emergency": "water_tank",
+        "water_tank:volume": "100 m/3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4079232,
+          49.2935574
+        ]
+      },
+      "id": "node/5162429752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5224734551",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2700039,
+          49.6359619
+        ]
+      },
+      "id": "node/5224734551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5224762790",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2666377,
+          49.6363944
+        ]
+      },
+      "id": "node/5224762790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5331691816",
+        "emergency": "water_tank",
+        "name": "Feuersee Tierberg",
+        "survey:date": "2018-01-10",
+        "water_tank:volume": "50 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7912028,
+          49.2522708
+        ]
+      },
+      "id": "node/5331691816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5331737385",
+        "emergency": "water_tank",
+        "survey:date": "2018-01-10",
+        "water_tank:volume": "300 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7994828,
+          49.2226846
+        ]
+      },
+      "id": "node/5331737385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5331737439",
+        "emergency": "water_tank",
+        "survey:date": "2018-01-10",
+        "water_tank:volume": "300 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7994319,
+          49.2207418
+        ]
+      },
+      "id": "node/5331737439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5331898004",
+        "emergency": "water_tank",
+        "name": "Feuersee Orlach",
+        "survey:date": "2018-01-10",
+        "water_tank:volume": "ca.80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8120101,
+          49.21118
+        ]
+      },
+      "id": "node/5331898004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5364323334",
+        "emergency": "water_tank",
+        "survey:date": "2018-01-26",
+        "water_tank:volume": "70 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8230997,
+          49.2306004
+        ]
+      },
+      "id": "node/5364323334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5364405847",
+        "emergency": "water_tank",
+        "survey:date": "2018-01-26",
+        "water_tank:volume": "30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7939575,
+          49.2083808
+        ]
+      },
+      "id": "node/5364405847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5412178222",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.968757,
+          49.7026334
+        ]
+      },
+      "id": "node/5412178222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5433315139",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9477002,
+          49.6758165
+        ]
+      },
+      "id": "node/5433315139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5433361769",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9525359,
+          49.6879884
+        ]
+      },
+      "id": "node/5433361769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5518067384",
+        "emergency": "water_tank",
+        "water_tank:volume": "150000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4433055,
+          49.5367032
+        ]
+      },
+      "id": "node/5518067384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5530662772",
+        "description": "Zisterne 50 qm",
+        "emergency": "water_tank",
+        "survey:date": "2018-04-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.944484,
+          49.6185202
+        ]
+      },
+      "id": "node/5530662772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5554394011",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3331296,
+          49.5172819
+        ]
+      },
+      "id": "node/5554394011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5560352437",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1462647,
+          49.9086924
+        ]
+      },
+      "id": "node/5560352437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5560352438",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.147212,
+          49.9065077
+        ]
+      },
+      "id": "node/5560352438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5570920669",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9597035,
+          49.7097647
+        ]
+      },
+      "id": "node/5570920669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5662658629",
+        "description": "im Rasen bei der Wendeplatte",
+        "emergency": "water_tank",
+        "water_tank:volume": "75000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8872182,
+          49.7939737
+        ]
+      },
+      "id": "node/5662658629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5794091489",
+        "emergency": "water_tank",
+        "survey:date": "2018-07-29",
+        "water_tank:volume": "80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9937284,
+          49.6727661
+        ]
+      },
+      "id": "node/5794091489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5854571109",
+        "emergency": "water_tank",
+        "water_tank:volume": "85 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3403408,
+          49.6943902
+        ]
+      },
+      "id": "node/5854571109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5910238878",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1846989,
+          49.5795444
+        ]
+      },
+      "id": "node/5910238878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5913335518",
+        "emergency": "water_tank",
+        "name": "Feuerweiher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7706919,
+          49.9019704
+        ]
+      },
+      "id": "node/5913335518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6045591822",
+        "description": "Zisterne",
+        "emergency": "water_tank",
+        "survey:date": "2018-11-08",
+        "water_volume": "30000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9506575,
+          49.6093959
+        ]
+      },
+      "id": "node/6045591822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6167217483",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5132079,
+          49.4222985
+        ]
+      },
+      "id": "node/6167217483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6185689991",
+        "emergency": "water_tank",
+        "survey:date": "2019-01-05",
+        "water_tank:volume": "50000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1828337,
+          49.8596304
+        ]
+      },
+      "id": "node/6185689991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6490432599",
+        "emergency": "water_tank",
+        "survey:date": "2019-05-22",
+        "water_tank:volume": "7,5 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1715132,
+          49.6391008
+        ]
+      },
+      "id": "node/6490432599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6490697597",
+        "emergency": "water_tank",
+        "survey:date": "2019-05-22",
+        "water_tank:volume": "70 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1060995,
+          49.6232707
+        ]
+      },
+      "id": "node/6490697597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6494114608",
+        "emergency": "water_tank",
+        "survey:date": "2019-05-23",
+        "water_tank:volume": "80 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0908538,
+          49.6208589
+        ]
+      },
+      "id": "node/6494114608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6593470440",
+        "couplings": "1",
+        "description": "Hochbehälter",
+        "emergency": "water_tank",
+        "survey:date": "2019-07-06",
+        "water_volume": "5000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6312624,
+          49.7562003
+        ]
+      },
+      "id": "node/6593470440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6593474658",
+        "couplings": "2",
+        "description": "Hochbehälter",
+        "emergency": "water_tank",
+        "fixme": "Volumen nicht bekannt",
+        "survey:date": "2019-07-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6421844,
+          49.7492463
+        ]
+      },
+      "id": "node/6593474658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6616587053",
+        "emergency": "water_tank",
+        "name": "Löschwassertank",
+        "operator": "FF Willmersbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7149945,
+          49.6122191
+        ]
+      },
+      "id": "node/6616587053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6657050012",
+        "emergency": "water_tank",
+        "man_made": "reservoir_covered",
+        "water_tank:volume": "50000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.442566,
+          49.8686784
+        ]
+      },
+      "id": "node/6657050012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6699425034",
+        "emergency": "water_tank",
+        "name": "Löschwasserbehälter",
+        "water_tank:volume": "24000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6277128,
+          49.7794247
+        ]
+      },
+      "id": "node/6699425034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6760347915",
+        "emergency": "water_tank",
+        "name": "Zisterne",
+        "survey:date": "2019-08-30",
+        "water_tank:volume": "75 m3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.402343,
+          49.2505644
+        ]
+      },
+      "id": "node/6760347915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6776174684",
+        "emergency": "water_tank",
+        "survey:date": "2019-09-06",
+        "water_tank:volume": "40000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7297856,
+          49.5620613
+        ]
+      },
+      "id": "node/6776174684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6776190515",
+        "emergency": "water_tank",
+        "survey:date": "2019-09-06",
+        "water_tank:volume": "30000 -100000 L"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7405224,
+          49.5666471
+        ]
+      },
+      "id": "node/6776190515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6804715348",
+        "emergency": "water_tank",
+        "fire_hydrant:position": "green",
+        "name": "Löschwasserzisterne",
+        "operator": "conneKT",
+        "water_tank:volume": "10300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.208148,
+          49.7481912
+        ]
+      },
+      "id": "node/6804715348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816343003",
+        "emergency": "water_tank",
+        "water_tank:volume": "7,5 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1897215,
+          49.6399167
+        ]
+      },
+      "id": "node/6816343003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6851612050",
+        "emergency": "water_tank",
+        "water_tank:volume": "250000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2386087,
+          49.2539025
+        ]
+      },
+      "id": "node/6851612050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6851617034",
+        "emergency": "water_tank",
+        "water_tank:volume": "100000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.244288,
+          49.2552205
+        ]
+      },
+      "id": "node/6851617034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6874063019",
+        "emergency": "water_tank",
+        "water_tank:volume": "85000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3875613,
+          49.3210914
+        ]
+      },
+      "id": "node/6874063019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7040138752",
+        "emergency": "water_tank",
+        "water_source": "main"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3718914,
+          49.5394672
+        ]
+      },
+      "id": "node/7040138752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7086716505",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1987445,
+          49.7406857
+        ]
+      },
+      "id": "node/7086716505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7086716507",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2012157,
+          49.7285142
+        ]
+      },
+      "id": "node/7086716507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7086716508",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2088654,
+          49.7260597
+        ]
+      },
+      "id": "node/7086716508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7160216457",
+        "emergency": "water_tank",
+        "survey:date": "2020-01-26",
+        "water_tank:volume": "25 m3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8162091,
+          49.2305916
+        ]
+      },
+      "id": "node/7160216457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7198132578",
+        "emergency": "water_tank",
+        "water_tank:volume": "80000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0826784,
+          49.766634
+        ]
+      },
+      "id": "node/7198132578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7386124560",
+        "description": "Löschweiher",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.787209,
+          49.8746648
+        ]
+      },
+      "id": "node/7386124560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7386124838",
+        "emergency": "water_tank",
+        "name": "Ansaugstelle_Hochbehaelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7885501,
+          49.884197
+        ]
+      },
+      "id": "node/7386124838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7395980467",
+        "emergency": "water_tank",
+        "water_tank:volume": "100 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.088331,
+          49.745912
+        ]
+      },
+      "id": "node/7395980467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7395981945",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0796648,
+          49.7497879
+        ]
+      },
+      "id": "node/7395981945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7396051021",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.08788,
+          49.74675
+        ]
+      },
+      "id": "node/7396051021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7431098591",
+        "emergency": "water_tank",
+        "survey:date": "2020-04-21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7861844,
+          49.2627059
+        ]
+      },
+      "id": "node/7431098591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7443506469",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2074287,
+          49.545745
+        ]
+      },
+      "id": "node/7443506469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7476283448",
+        "drinking_water": "no",
+        "emergency": "water_tank",
+        "fire_hydrant:type": "pillar",
+        "water_tank:volume": "100000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9437872,
+          49.6909844
+        ]
+      },
+      "id": "node/7476283448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7486861058",
+        "emergency": "water_tank",
+        "man_made": "reservoir_covered",
+        "water_volume": "149000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0026822,
+          49.5542913
+        ]
+      },
+      "id": "node/7486861058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7486874571",
+        "emergency": "water_tank",
+        "man_made": "reservoir_covered",
+        "water_volume": "149000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0026501,
+          49.5543131
+        ]
+      },
+      "id": "node/7486874571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7486877314",
+        "emergency": "water_tank",
+        "man_made": "reservoir_covered",
+        "water_volume": "149000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0026721,
+          49.5543606
+        ]
+      },
+      "id": "node/7486877314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7638259628",
+        "description": "Rastanlage Frankenhöhe Süd",
+        "emergency": "water_tank",
+        "water_tank:volume": "80000 Liter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3541873,
+          49.2412594
+        ]
+      },
+      "id": "node/7638259628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7639638653",
+        "description": "Rastanlage Frankenhöhe Nord",
+        "emergency": "water_tank",
+        "name": "Löschwasserbehälter",
+        "survey:date": "2020-06-21",
+        "water_tank:volume": "80000 Liter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3550215,
+          49.2425403
+        ]
+      },
+      "id": "node/7639638653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7639723380",
+        "emergency": "water_tank",
+        "name": "Löschwasserbehälter mit Ansaugstelle",
+        "water_tank:volume": "125 m3 "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3664477,
+          49.2318724
+        ]
+      },
+      "id": "node/7639723380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7666615500",
+        "emergency": "water_tank",
+        "fixme": "Volumen",
+        "survey:date": "2020-06-29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.415597,
+          49.2462776
+        ]
+      },
+      "id": "node/7666615500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7688756970",
+        "emergency": "water_tank",
+        "survey:date": "2020-07-06",
+        "water_tank:volume": "1500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.380916,
+          49.2417441
+        ]
+      },
+      "id": "node/7688756970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7688801293",
+        "emergency": "water_tank",
+        "survey:date": "2020-07-06",
+        "water_tank:volume": "50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4195613,
+          49.2542386
+        ]
+      },
+      "id": "node/7688801293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7688804146",
+        "emergency": "water_tank",
+        "survey:date": "2020-07-06",
+        "water_tank:volume": "550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4220825,
+          49.2524809
+        ]
+      },
+      "id": "node/7688804146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7688982561",
+        "emergency": "water_tank",
+        "survey:date": "2020-07-06",
+        "water_tank:volume": "1500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3790331,
+          49.2398423
+        ]
+      },
+      "id": "node/7688982561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7688988361",
+        "emergency": "water_tank",
+        "survey:date": "2020-07-06",
+        "water_tank:volume": "1500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3807336,
+          49.2397828
+        ]
+      },
+      "id": "node/7688988361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7707460737",
+        "emergency": "water_tank",
+        "name": "Mühlweiher",
+        "survey:date": "2020-07-12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4081877,
+          49.2415388
+        ]
+      },
+      "id": "node/7707460737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7744072287",
+        "emergency": "water_tank",
+        "survey:date": "2020-07-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4284823,
+          49.6107829
+        ]
+      },
+      "id": "node/7744072287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7746393144",
+        "emergency": "water_tank",
+        "water_tank:volume": "80 m²"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1029747,
+          49.7560875
+        ]
+      },
+      "id": "node/7746393144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7896058051",
+        "description": "Zisterne unter Gerätehaus, Saugschacht vor Gerätehaus ",
+        "emergency": "water_tank",
+        "water_tank:volume": "40000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3042786,
+          49.2171156
+        ]
+      },
+      "id": "node/7896058051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7931513048",
+        "description": "Hochbehälter",
+        "emergency": "water_tank",
+        "survey:date": "2020-09-22",
+        "water_tank:volume": "200000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6422198,
+          49.7493544
+        ]
+      },
+      "id": "node/7931513048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7935030487",
+        "description": "Hochbehälter",
+        "emergency": "water_tank",
+        "water_tank:volume": "96000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6375822,
+          49.7478458
+        ]
+      },
+      "id": "node/7935030487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7950683878",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2444423,
+          49.7879202
+        ]
+      },
+      "id": "node/7950683878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7953912551",
+        "description": "Saugstelle offenes Gewässer",
+        "drinking_water": "no",
+        "emergency": "water_tank",
+        "name": "Laber"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5332433,
+          49.2307969
+        ]
+      },
+      "id": "node/7953912551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7953912552",
+        "description": "Saugstelle offenes Gewässer",
+        "drinking_water": "no",
+        "emergency": "water_tank",
+        "name": "Laber"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5339569,
+          49.2296102
+        ]
+      },
+      "id": "node/7953912552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7966197107",
+        "emergency": "water_tank",
+        "survey:date": "2020-10-02",
+        "water_tank:volume": "85"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7763451,
+          49.7552147
+        ]
+      },
+      "id": "node/7966197107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7967980434",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2141529,
+          49.7297802
+        ]
+      },
+      "id": "node/7967980434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7967980435",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2170285,
+          49.7302171
+        ]
+      },
+      "id": "node/7967980435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7995264295",
+        "drinking_water": "no",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8980828,
+          49.6495908
+        ]
+      },
+      "id": "node/7995264295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8003324353",
+        "emergency": "water_tank",
+        "fire_hydrant:diameter": "100",
+        "fire_hydrant:type": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5011818,
+          49.2443381
+        ]
+      },
+      "id": "node/8003324353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8003324354",
+        "drinking_water": "no",
+        "emergency": "water_tank",
+        "name": "Löschwasserbehälter",
+        "water_tank:volume": "200000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5043421,
+          49.2418205
+        ]
+      },
+      "id": "node/8003324354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8035831551",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7726634,
+          49.5407013
+        ]
+      },
+      "id": "node/8035831551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8068145399",
+        "description": "Saugstelle",
+        "emergency": "water_tank",
+        "name": "Bach",
+        "survey:date": "2020-10-31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.028927,
+          49.8721116
+        ]
+      },
+      "id": "node/8068145399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8150431125",
+        "emergency": "water_tank",
+        "water_tank:volume": "100000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2003154,
+          49.746281
+        ]
+      },
+      "id": "node/8150431125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8195840628",
+        "emergency": "water_tank",
+        "water_tank:volume": "290000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1936523,
+          49.7441955
+        ]
+      },
+      "id": "node/8195840628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8201674364",
+        "emergency": "water_tank",
+        "water_tank:volume": "78000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0689482,
+          49.6822669
+        ]
+      },
+      "id": "node/8201674364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8201773119",
+        "emergency": "water_tank",
+        "water_tank:volume": "85000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0808653,
+          49.6978453
+        ]
+      },
+      "id": "node/8201773119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8209026425",
+        "description": "FFW-Haus Parkplatz",
+        "emergency": "water_tank",
+        "name": "Löschwasserzisterne",
+        "ref": "MES02",
+        "survey:date": "2020-12-09",
+        "water_tank:volume": "85 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2931863,
+          49.6859667
+        ]
+      },
+      "id": "node/8209026425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8242582715",
+        "description": "Zisterne (Nr. 12) 90 cbm",
+        "emergency": "water_tank",
+        "ref": "12",
+        "water_tank:volume": "90000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.996888,
+          49.6462046
+        ]
+      },
+      "id": "node/8242582715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8375770045",
+        "emergency": "water_tank",
+        "water_tank:volume": "193000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1913885,
+          49.7432762
+        ]
+      },
+      "id": "node/8375770045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8376862199",
+        "emergency": "water_tank",
+        "water_volume": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4475394,
+          49.2922454
+        ]
+      },
+      "id": "node/8376862199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8391447160",
+        "emergency": "water_tank",
+        "water_tank:volume": "75.000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7060025,
+          49.7668523
+        ]
+      },
+      "id": "node/8391447160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8443790547",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4721259,
+          49.6949219
+        ]
+      },
+      "id": "node/8443790547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8443794778",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4363827,
+          49.6824665
+        ]
+      },
+      "id": "node/8443794778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8443800022",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5082686,
+          49.6873532
+        ]
+      },
+      "id": "node/8443800022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8443800094",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5003467,
+          49.6741095
+        ]
+      },
+      "id": "node/8443800094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8493062240",
+        "emergency": "water_tank",
+        "man_made": "reservoir_covered",
+        "water_tank:volume": "56 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9477271,
+          49.4666224
+        ]
+      },
+      "id": "node/8493062240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8538896690",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7206312,
+          49.8735654
+        ]
+      },
+      "id": "node/8538896690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8571557209",
+        "emergency": "water_tank",
+        "survey:date": "2021-03-29",
+        "water_tank:volume": "100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7278544,
+          49.7322761
+        ]
+      },
+      "id": "node/8571557209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8571559995",
+        "emergency": "water_tank",
+        "survey:date": "2021-03-29",
+        "water_tank:volume": "100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7265186,
+          49.7306222
+        ]
+      },
+      "id": "node/8571559995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8571569030",
+        "emergency": "water_tank",
+        "survey:date": "2021-03-29",
+        "water_tank:volume": "100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7268244,
+          49.730643
+        ]
+      },
+      "id": "node/8571569030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8575528912",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4686484,
+          49.7019603
+        ]
+      },
+      "id": "node/8575528912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8601791050",
+        "emergency": "water_tank",
+        "name": "Spielplatz am Zelthaus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4417472,
+          49.6817732
+        ]
+      },
+      "id": "node/8601791050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8602318452",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5006927,
+          49.6481723
+        ]
+      },
+      "id": "node/8602318452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8602449573",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4467481,
+          49.6438669
+        ]
+      },
+      "id": "node/8602449573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8602617580",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4658026,
+          49.6602493
+        ]
+      },
+      "id": "node/8602617580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8676994749",
+        "emergency": "water_tank",
+        "water_tank:volume": "30000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0984008,
+          49.5933961
+        ]
+      },
+      "id": "node/8676994749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8735741154",
+        "description": "Behälter",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3389954,
+          49.2711845
+        ]
+      },
+      "id": "node/8735741154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8735769494",
+        "description": "offener Weiher",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.34478,
+          49.2623868
+        ]
+      },
+      "id": "node/8735769494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8748043217",
+        "description": "offener Weiher",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3600928,
+          49.2727912
+        ]
+      },
+      "id": "node/8748043217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8748043218",
+        "description": "Ansaugschacht",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.349112,
+          49.2833627
+        ]
+      },
+      "id": "node/8748043218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8748043219",
+        "description": "Ansaugstutzen",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3497891,
+          49.2864722
+        ]
+      },
+      "id": "node/8748043219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8759480853",
+        "emergency": "water_tank",
+        "name": "Dorfweiher",
+        "survey:date": "2021-05-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3440597,
+          49.5096756
+        ]
+      },
+      "id": "node/8759480853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8893764095",
+        "description": "Ansaugschacht",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3339743,
+          49.2881484
+        ]
+      },
+      "id": "node/8893764095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8893764096",
+        "description": "offener Weiher",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3346717,
+          49.2755946
+        ]
+      },
+      "id": "node/8893764096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8896957096",
+        "emergency": "water_tank",
+        "name": "Zisterne",
+        "water_tank:volume": "400000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9809584,
+          49.6997745
+        ]
+      },
+      "id": "node/8896957096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8898470826",
+        "emergency": "water_tank",
+        "survey:date": "2021-07-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.444133,
+          49.296678
+        ]
+      },
+      "id": "node/8898470826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8948919854",
+        "description": "Sauganschluss 2x A",
+        "emergency": "water_tank",
+        "survey:date": "2021-07-25",
+        "water_tank:volume": "180 m3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2907562,
+          49.20775
+        ]
+      },
+      "id": "node/8948919854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8951639470",
+        "emergency": "water_tank",
+        "survey:date": "2021-07-26",
+        "water_tank:volume": "85"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7950723,
+          49.7639995
+        ]
+      },
+      "id": "node/8951639470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8997715938",
+        "emergency": "water_tank",
+        "name": "Weide",
+        "survey:date": "2021-08-02",
+        "water_tank:volume": "80 Kubikmeter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8235914,
+          49.5918318
+        ]
+      },
+      "id": "node/8997715938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9072946337",
+        "emergency": "water_tank",
+        "survey:date": "2021-09-06",
+        "water_tank:volume": "Noch zu klären"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8311094,
+          49.5721075
+        ]
+      },
+      "id": "node/9072946337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9121707976",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1932353,
+          49.7416596
+        ]
+      },
+      "id": "node/9121707976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9166404528",
+        "emergency": "water_tank",
+        "survey:date": "2021-10-12",
+        "water_tank:volume": "180"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8625513,
+          49.7110219
+        ]
+      },
+      "id": "node/9166404528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9190600407",
+        "emergency": "water_tank",
+        "water_tank:volume": "100000 l"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.266619,
+          49.5996967
+        ]
+      },
+      "id": "node/9190600407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9197818060",
+        "couplings": "1",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9298568,
+          49.6912508
+        ]
+      },
+      "id": "node/9197818060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9198044682",
+        "couplings": "1",
+        "drinking_water": "no",
+        "emergency": "water_tank",
+        "water_tank:volume": "550000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.930563,
+          49.6922399
+        ]
+      },
+      "id": "node/9198044682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9200469038",
+        "emergency": "water_tank",
+        "water_tank:volume": "100000 l"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2697518,
+          49.5886878
+        ]
+      },
+      "id": "node/9200469038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9277120396",
+        "emergency": "water_tank",
+        "name": "Badeweiher",
+        "survey:date": "2021-11-23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7096529,
+          49.3797535
+        ]
+      },
+      "id": "node/9277120396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9289698059",
+        "description": "offener Weiher",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3586355,
+          49.2499418
+        ]
+      },
+      "id": "node/9289698059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9289698060",
+        "description": "offener Weiher",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.327188,
+          49.282076
+        ]
+      },
+      "id": "node/9289698060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9289698061",
+        "description": "offenes Becken",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.326614,
+          49.282959
+        ]
+      },
+      "id": "node/9289698061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9289734261",
+        "description": "Ansaugstutzen",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.364958,
+          49.2930001
+        ]
+      },
+      "id": "node/9289734261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9289734589",
+        "description": "Ansaugstutzen",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3813659,
+          49.2838547
+        ]
+      },
+      "id": "node/9289734589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9289756289",
+        "description": "offener Weiher",
+        "emergency": "water_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3828805,
+          49.2869328
+        ]
+      },
+      "id": "node/9289756289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9333711674",
+        "description": "Bauhof ",
+        "emergency": "water_tank",
+        "name": "SB Becken ",
+        "survey:date": "2021-12-13",
+        "water_tank:volume": "500 cm³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3768739,
+          49.771916
+        ]
+      },
+      "id": "node/9333711674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9351596679",
+        "emergency": "water_tank",
+        "survey:date": "2021-11-19",
+        "water_tank:volume": "100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7232893,
+          49.730721
+        ]
+      },
+      "id": "node/9351596679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9351665609",
+        "emergency": "water_tank",
+        "survey:date": "2021-12-20",
+        "water_tank:volume": "100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7324302,
+          49.7327564
+        ]
+      },
+      "id": "node/9351665609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9351670922",
+        "emergency": "water_tank",
+        "survey:date": "2021-12-20",
+        "water_tank:volume": "100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7338464,
+          49.7327113
+        ]
+      },
+      "id": "node/9351670922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9370125119",
+        "description": "Fester Sauganschluss A ;",
+        "emergency": "water_tank",
+        "survey:date": "2021-12-27",
+        "water_tank:volume": "250 m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1348635,
+          49.7115925
+        ]
+      },
+      "id": "node/9370125119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9392419717",
+        "emergency": "water_tank",
+        "survey:date": "2022-01-04",
+        "water_tank:volume": "???"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1554173,
+          49.7073881
+        ]
+      },
+      "id": "node/9392419717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9392438358",
+        "emergency": "water_tank",
+        "survey:date": "2022-01-04",
+        "water_tank:volume": "???"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.159462,
+          49.7069336
+        ]
+      },
+      "id": "node/9392438358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9469867739",
+        "emergency": "water_tank",
+        "name": "2 Wassertanks je 225m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2789752,
+          49.3252023
+        ]
+      },
+      "id": "node/9469867739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9493750149",
+        "emergency": "water_tank",
+        "name": "Zisterne Feuerwehr Unternschreez",
+        "survey:date": "2022-02-09",
+        "water_tank:volume": "20000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5826583,
+          49.8843871
+        ]
+      },
+      "id": "node/9493750149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9505666675",
+        "description": "Inhalt Menge nicht genau bekannt",
+        "emergency": "water_tank",
+        "survey:date": "2022-02-14",
+        "water_tank:volume": "2000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4868283,
+          49.6663727
+        ]
+      },
+      "id": "node/9505666675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9590035903",
+        "description": "Auf dem Gelände der KWS",
+        "emergency": "water_tank",
+        "survey:date": "2022-03-19",
+        "water_tank:volume": "200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1004347,
+          49.8548356
+        ]
+      },
+      "id": "node/9590035903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9590099776",
+        "description": "KWS Gelände",
+        "emergency": "water_tank",
+        "survey:date": "2022-03-19",
+        "water_tank:volume": "28 m3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0996086,
+          49.8543168
+        ]
+      },
+      "id": "node/9590099776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9594135404",
+        "description": "FW Haus Lindach",
+        "emergency": "water_tank",
+        "survey:date": "2022-03-21",
+        "water_volume": "150000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5793163,
+          49.3880081
+        ]
+      },
+      "id": "node/9594135404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9687846183",
+        "emergency": "water_tank",
+        "water_tank:volume": "500m³"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4488397,
+          49.2215569
+        ]
+      },
+      "id": "node/9687846183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9741004395",
+        "description": "Saugstelle Gegenüber Feuerwehrhaus",
+        "emergency": "water_tank",
+        "survey:date": "2022-05-15",
+        "water_volume": "82000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4906315,
+          49.859324
+        ]
+      },
+      "id": "node/9741004395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9741028687",
+        "description": "Trinkwasserbehälter Moritzreuth",
+        "emergency": "water_tank",
+        "name": "Hochbehälter",
+        "survey:date": "2022-05-15",
+        "water_volume": "18000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4901649,
+          49.8525546
+        ]
+      },
+      "id": "node/9741028687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9769739324",
+        "emergency": "water_tank",
+        "name": "Löschwasserbehälter Hummertsweiler",
+        "survey:date": "2022-05-07",
+        "water_tank:volume": "100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0860474,
+          49.3754541
+        ]
+      },
+      "id": "node/9769739324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9776623651",
+        "emergency": "water_tank",
+        "name": "Löschbehälter",
+        "survey:date": "2022-05-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9747309,
+          49.3496598
+        ]
+      },
+      "id": "node/9776623651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9794298379",
+        "content": "water",
+        "description": "Löschwasseranschluß",
+        "emergency": "water_tank",
+        "man_made": "storage_tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8753111,
+          49.8113263
+        ]
+      },
+      "id": "node/9794298379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9801584064",
+        "emergency": "water_tank",
+        "name": "Löschbehälter Reupoldsrot",
+        "survey:date": "2022-06-07",
+        "water_tank:volume": "200000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0054143,
+          49.3610896
+        ]
+      },
+      "id": "node/9801584064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9808925558",
+        "emergency": "water_tank",
+        "man_made": "reservoir_covered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2277046,
+          49.8234471
+        ]
+      },
+      "id": "node/9808925558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9808925559",
+        "emergency": "water_tank",
+        "man_made": "reservoir_covered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2151877,
+          49.8287732
+        ]
+      },
+      "id": "node/9808925559"
+    }
+  ]
+}

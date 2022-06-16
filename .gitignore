@@ -1,0 +1,5 @@
+# ignore map.id so that each fork uses its own
+map.id
+
+# ignore downloaded zip archive
+printmaps.zip
