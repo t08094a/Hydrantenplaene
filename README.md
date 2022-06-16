@@ -1,5 +1,5 @@
 # Hydrant maps
-Hydrant maps for village [Ipsheim en](https://en.wikipedia.org/wiki/Ipsheim) or [Ipsheim de](https://de.wikipedia.org/wiki/Ipsheim) based on [printmaps-osm](http://printmaps-osm.de).
+Hydrant maps for village [Ipsheim (en)](https://en.wikipedia.org/wiki/Ipsheim) or [Ipsheim (de)](https://de.wikipedia.org/wiki/Ipsheim) based on [printmaps-osm](http://printmaps-osm.de).
 
 # Based on OpenStreetMap
 All fire hydrants are implemented as features in [OpenStreetMap](https://www.openstreetmap.org/). A rendered map can be seen at [Hydrants Ipsheim](http://www.openfiremap.de/?zoom=16&lat=49.52867&lon=10.48735&layers=B00000).
