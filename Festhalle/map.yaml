@@ -1,0 +1,193 @@
+# map definition file
+# -------------------
+# general hint for this yaml config file:
+# - do not use tabs or unnecessary white spaces
+#
+# useful links:
+# - https://github.com/mapnik/mapnik/wiki/SymbologySupport
+# - http://mapnik.org/mapnik-reference
+#
+# basic symbolizers:
+# - LinePatternSymbolizer (https://github.com/mapnik/mapnik/wiki/LinePatternSymbolizer)
+# - LineSymbolizer (https://github.com/mapnik/mapnik/wiki/LineSymbolizer)
+# - MarkersSymbolizer (https://github.com/mapnik/mapnik/wiki/MarkersSymbolizer)
+# - PointSymbolizer (https://github.com/mapnik/mapnik/wiki/PointSymbolizer)
+# - PolygonPatternSymbolizer (https://github.com/mapnik/mapnik/wiki/PolygonPatternSymbolizer)
+# - PolygonSymbolizer (https://github.com/mapnik/mapnik/wiki/PolygonSymbolizer)
+# - TextSymbolizer (https://github.com/mapnik/mapnik/wiki/TextSymbolizer)
+#
+# advanced symbolizers:
+# - BuildingSymbolizer (https://github.com/mapnik/mapnik/wiki/BuildingSymbolizer)
+# - RasterSymbolizer (https://github.com/mapnik/mapnik/wiki/RasterSymbolizer)
+# - ShieldSymbolizer (https://github.com/mapnik/mapnik/wiki/ShieldSymbolizer)
+#
+# purpose: Hydrantenplan
+# author : Jochen Fähnlein
+# release: 2022-06-12
+#
+# frame:
+# printmaps passepartout 297.0 420.0 12.0 12.0 12.0 12.0
+#
+# scalebar:
+# printmaps bearingline 48.191822 11.790894 90.0 100.0 "100 Meter" scalebar-100
+
+# service configuration
+# ---------------------
+
+# URL of webservice
+ServiceURL: http://printmaps-osm.de:8282/api/beta2/maps/
+
+# proxy configuration (not to be done here)
+# - set the environment variable $HTTP_PROXY on your local system 
+# - e.g. export HTTP_PROXY=http://user:password@proxy.server:port
+
+# essential map attributes (required)
+# -----------------------------------
+
+# file format (currently only png)
+Fileformat: pdf
+
+# scale as in "1:10000" (e.g. 10000, 25000)
+Scale: 2000
+
+# width and height (millimeter, e.g. 609.6)
+PrintWidth: 420
+PrintHeight: 297
+
+# center coordinates (decimal degrees, e.g. 51.9506)
+# possible to get by 'permalink' on OpenStreetMap or OpenFireMap
+Latitude: 49.527158
+Longitude: 10.485506
+
+# style / design (osm-carto, osm-carto-mono, osm-carto-ele20, schwarzplan, schwarzplan+, raster10)
+# raster10 (no map data): useful for placing / styling the user map elements
+# request the service capabilities to get a list of all available map styles
+Style: osm-carto
+
+# map projection, EPSG code as number (without prefix "EPSG:")
+# e.g. 3857 (EPSG:3857 / WGS84 / Web Mercator) (used by Google/Bing/OpenStreetMap)
+# e.g. 32632 (EPSG:32632 / WGS 84 / UTM Zone 32N)
+# e.g. 27700 (EPSG:27700 / OSGB 1936 / British National Grid)
+Projection: 3857
+
+# advanced map attributes (optional)
+# ----------------------------------
+
+# layers to hide (see service capabilities for possible values)
+# e.g. hide admin borders: admin-low-zoom,admin-mid-zoom,admin-high-zoom,admin-text
+# e.g. hide nature reserve borders: nature-reserve-boundaries,nature-reserve-text
+# e.g. hide tourism borders (theme park, zoo): tourism-boundary
+# e.g. hide highway shields: roads-text-ref-low-zoom,roads-text-ref
+HideLayers: admin-low-zoom,admin-mid-zoom,admin-high-zoom,admin-text
+
+# user defined objects (optional, draw order remains)
+# ---------------------------------------------------
+#
+# data object defined by ...
+# style: object style
+# srs: spatial reference system (is always '+init=epsg:4326' for gpx and kml)
+# type: type of data source (ogr, shape, gdal, csv)
+# file: name of data objects file
+# layer: data layer to extract (only required for ogr)
+#
+# item object defined by ...
+# style: object style
+# well-known-text: object definition
+#
+# well-known-text:
+#   POINT, LINESTRING, POLYGON, MULTIPOINT, MULTILINESTRING, MULTIPOLYGON
+#   all values are in millimeter (reference X0 Y0: lower left map corner)
+#
+# font sets:
+#   fontset-0: Noto Fonts normal
+#   fontset-1: Noto Fonts italic
+#   fontset-2: Noto Fonts bold
+
+UserObjects:
+
+# hydrants pillar
+- Style: |
+         <MarkersSymbolizer file='fire_hydrant_pillar.svg' transform='scale(0.5, 0.5)' allow-overlap='true' placement='point' />
+         <TextSymbolizer fontset-name='fontset-2' size='11' fill='#b22222' dy='10' halo-fill="white" halo-radius="1.0" allow-overlap='true' placement='point' justify-alignment="center">
+            "Nr. " + [ref] + "\n(Ø " + [fire_hydrant:diameter] + ")\n" + [name]
+         </TextSymbolizer>
+  SRS: '+init=epsg:4326'
+  Type: geojson
+  File: fire_hydrant_pillar.geojson
+
+# hydrants underground
+- Style: |
+         <MarkersSymbolizer file='fire_hydrant_underground.svg' transform='scale(0.5, 0.5)' allow-overlap='true' placement='point' />
+         <TextSymbolizer fontset-name='fontset-2' size='11' fill='#b22222' dy='10' halo-fill="white" halo-radius="1.0" allow-overlap='true' placement='point' justify-alignment="center">
+            "Nr. " + [ref] + "\n(Ø " + [fire_hydrant:diameter] + ")\n" + [name]
+         </TextSymbolizer>
+  SRS: '+init=epsg:4326'
+  Type: geojson
+  File: fire_hydrant_underground.geojson
+
+# suction points
+- Style: |
+         <MarkersSymbolizer file='suction_point.svg' transform='scale(0.5, 0.5)' allow-overlap='true' placement='point' />
+  SRS: '+init=epsg:4326'
+  Type: geojson
+  File: suction_point.geojson
+
+# water ponds
+- Style: |
+         <MarkersSymbolizer file='fire_water_pond.svg' transform='scale(0.5, 0.5)' allow-overlap='true' placement='point' />
+  SRS: '+init=epsg:4326'
+  Type: geojson
+  File: fire_water_pond.geojson
+
+# scale bar (use always stroke-linecap='butt')
+- Style: |
+         <LineSymbolizer stroke='dimgray' stroke-width='4.0' stroke-linecap='butt' />
+         <TextSymbolizer fontset-name='fontset-2' size='12' fill='dimgray' halo-radius='1' halo-fill='rgba(255, 255, 255, 0.6)' placement='line' dy='-6' allow-overlap='true'>[name]</TextSymbolizer>
+  SRS: '+init=epsg:4326'
+  Type: geojson
+  File: scalebar-100.geojson
+
+# frame
+- Style: <PolygonSymbolizer fill='white' fill-opacity='1.0' /> 
+  WellKnownText: POLYGON((0.0 0.0, 0.0 297.0, 420.0 297.0, 420.0 0.0, 0.0 0.0), (12.0 12.0, 12.0 285.0, 408.0 285.0, 408.0 12.0, 12.0 12.0))
+
+# border (around map area)
+- Style: <LineSymbolizer stroke='dimgray' stroke-width='1.0' stroke-linecap='square' />
+  WellKnownText: LINESTRING(12.0 12.0, 12.0 285.0, 408.0 285.0, 408.0 12.0, 12.0 12.0)
+
+# crop marks (only the half line width is visible)
+#- Style: <LineSymbolizer stroke='dimgray' stroke-width='1.5' stroke-linecap='square' />
+#  WellKnownText: MULTILINESTRING((5.0 0.0, 0.0 0.0, 0.0 5.0), (5.0 297.0, 0.0 297.0, 0.0 292.0), (415.0 297.0, 420.0 297.0, 420.0 292.0), (415.0 0.0, 420.0 0.0, 420.0 5.0))
+
+# location name 'Ipsheim'
+- Style: <TextSymbolizer fontset-name='fontset-2' size='50' fill='dimgray' opacity='1.0' halo-fill="white" halo-radius="2.5" allow-overlap='true'>'Ipsheim'</TextSymbolizer>
+  WellKnownText: POINT(80 200)
+
+# Maßstab
+- Style: <TextSymbolizer fontset-name='fontset-0' size='10' fill='dimgray' allow-overlap='true' horizontal-alignment='right'>'Maßstab 1 - 2000'</TextSymbolizer>
+  WellKnownText: POINT(12.0 6.0)
+
+# copyright
+- Style: <TextSymbolizer fontset-name='fontset-0' size='10' fill='dimgray' allow-overlap='true' horizontal-alignment="left">'© OpenStreetMap contributors &amp; Jochen Fähnlein'</TextSymbolizer>
+  WellKnownText: POINT(408.0 6.0)
+
+# map legend
+- Style: <PointSymbolizer allow-overlap='yes' file='legend-path.svg' transform='scale(1.0, 1.0)' />
+  WellKnownText: POINT(350 28)
+
+# user files to upload
+# --------------------
+
+UserFiles:
+- scalebar-100.geojson
+- legend-path.svg
+- fire_hydrant_pillar.geojson
+- fire_hydrant_pillar.svg
+- fire_hydrant_underground.geojson
+- fire_hydrant_underground.svg
+- fire_water_pond.geojson
+- fire_water_pond.svg
+- suction_point.geojson
+- suction_point.svg
+- fire_station.geojson
+- fire_station.svg
