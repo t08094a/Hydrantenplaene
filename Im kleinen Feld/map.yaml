@@ -163,9 +163,13 @@ UserObjects:
 - Style: <TextSymbolizer fontset-name='fontset-2' size='50' fill='dimgray' opacity='1.0' halo-fill="white" halo-radius="2.5" allow-overlap='true'>'Ipsheim'</TextSymbolizer>
   WellKnownText: POINT(80 200)
 
+# Maßstab
+- Style: <TextSymbolizer fontset-name='fontset-0' size='10' fill='dimgray' allow-overlap='true' horizontal-alignment='right'>'Maßstab 1 - 2500'</TextSymbolizer>
+  WellKnownText: POINT(12.0 6.0)
+
 # copyright
-- Style: <TextSymbolizer fontset-name='fontset-0' size='10' fill='dimgray' allow-overlap='true' horizontal-alignment="right">'© OpenStreetMap contributors &amp; Jochen Fähnlein'</TextSymbolizer>
-  WellKnownText: POINT(24.0 6.0)
+- Style: <TextSymbolizer fontset-name='fontset-0' size='10' fill='dimgray' allow-overlap='true' horizontal-alignment="left">'© OpenStreetMap contributors &amp; Jochen Fähnlein'</TextSymbolizer>
+  WellKnownText: POINT(408.0 6.0)
 
 # map legend
 - Style: <PointSymbolizer allow-overlap='yes' file='legend-path.svg' transform='scale(1.0, 1.0)' />
