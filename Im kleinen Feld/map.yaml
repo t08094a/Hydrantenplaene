@@ -45,7 +45,7 @@ ServiceURL: http://printmaps-osm.de:8282/api/beta2/maps/
 # -----------------------------------
 
 # file format (currently only png)
-Fileformat: png
+Fileformat: pdf
 
 # scale as in "1:10000" (e.g. 10000, 25000)
 Scale: 2500
@@ -127,14 +127,14 @@ UserObjects:
 
 # suction points
 - Style: |
-         <MarkersSymbolizer file='suction_point.svg' transform='scale(0.04, 0.04)' allow-overlap='true' placement='point' />
+         <MarkersSymbolizer file='suction_point.svg' transform='scale(0.5, 0.5)' allow-overlap='true' placement='point' />
   SRS: '+init=epsg:4326'
   Type: geojson
   File: suction_point.geojson
 
 # water ponds
 - Style: |
-         <MarkersSymbolizer file='fire_water_pond.svg' transform='scale(0.04, 0.04)' allow-overlap='true' placement='point' />
+         <MarkersSymbolizer file='fire_water_pond.svg' transform='scale(0.5, 0.5)' allow-overlap='true' placement='point' />
   SRS: '+init=epsg:4326'
   Type: geojson
   File: fire_water_pond.geojson
@@ -164,7 +164,7 @@ UserObjects:
   WellKnownText: POINT(80 200)
 
 # copyright
-- Style: <TextSymbolizer fontset-name='fontset-0' size='10' fill='dimgray' allow-overlap='true'>'© Jochen Fähnlein'</TextSymbolizer>
+- Style: <TextSymbolizer fontset-name='fontset-0' size='10' fill='dimgray' allow-overlap='true' horizontal-alignment="right">'© OpenStreetMap contributors &amp; Jochen Fähnlein'</TextSymbolizer>
   WellKnownText: POINT(24.0 6.0)
 
 # map legend
