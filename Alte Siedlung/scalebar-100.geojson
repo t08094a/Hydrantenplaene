@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.484028,
+            49.523139
+          ],
+          [
+            10.4854091697722,
+            49.52313899175658
+          ]
+        ]
+      },
+      "properties": {
+        "name": "100 Meter"
+      }
+    }
+  ]
+}

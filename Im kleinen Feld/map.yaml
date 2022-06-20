@@ -108,7 +108,7 @@ UserObjects:
 # hydrants pillar
 - Style: |
          <MarkersSymbolizer file='fire_hydrant_pillar.svg' transform='scale(0.5, 0.5)' allow-overlap='true' placement='point' />
-         <TextSymbolizer fontset-name='fontset-2' size='11' fill='#b22222' dy='10' halo-fill="white" halo-radius="1.0" allow-overlap='true' placement='point' justify-alignment="center">
+         <TextSymbolizer fontset-name='fontset-2' size='11' fill='#b22222' dy='15' halo-fill="white" halo-radius="1.0" allow-overlap='true' placement='point' justify-alignment="center">
             "Nr. " + [ref] + "\n(Ø " + [fire_hydrant:diameter] + ")\n" + [name]
          </TextSymbolizer>
   SRS: '+init=epsg:4326'
@@ -118,7 +118,7 @@ UserObjects:
 # hydrants underground
 - Style: |
          <MarkersSymbolizer file='fire_hydrant_underground.svg' transform='scale(0.5, 0.5)' allow-overlap='true' placement='point' />
-         <TextSymbolizer fontset-name='fontset-2' size='11' fill='#b22222' dy='10' halo-fill="white" halo-radius="1.0" allow-overlap='true' placement='point' justify-alignment="center">
+         <TextSymbolizer fontset-name='fontset-2' size='11' fill='#b22222' vertical-alignment="auto" dy='10' dx='10' horizontal-alignment="auto" halo-fill="white" halo-radius="1.0" allow-overlap='false' placements="S,W,N,E,SW,NW,NE,SE,11,10,9,8" placement-type="simple" justify-alignment="center">
             "Nr. " + [ref] + "\n(Ø " + [fire_hydrant:diameter] + ")\n" + [name]
          </TextSymbolizer>
   SRS: '+init=epsg:4326'

@@ -48,7 +48,7 @@ ServiceURL: http://printmaps-osm.de:8282/api/beta2/maps/
 Fileformat: pdf
 
 # scale as in "1:10000" (e.g. 10000, 25000)
-Scale: 2500
+Scale: 2000
 
 # width and height (millimeter, e.g. 609.6)
 PrintWidth: 420
@@ -56,8 +56,8 @@ PrintHeight: 297
 
 # center coordinates (decimal degrees, e.g. 51.9506)
 # possible to get by 'permalink' on OpenStreetMap or OpenFireMap
-Latitude: 49.528784
-Longitude: 10.482019
+Latitude: 49.525514
+Longitude: 10.489255
 
 # style / design (osm-carto, osm-carto-mono, osm-carto-ele20, schwarzplan, schwarzplan+, raster10)
 # raster10 (no map data): useful for placing / styling the user map elements
@@ -164,7 +164,7 @@ UserObjects:
   WellKnownText: POINT(80 200)
 
 # Maßstab
-- Style: <TextSymbolizer fontset-name='fontset-0' size='10' fill='dimgray' allow-overlap='true' horizontal-alignment='right'>'Maßstab 1 - 2500'</TextSymbolizer>
+- Style: <TextSymbolizer fontset-name='fontset-0' size='10' fill='dimgray' allow-overlap='true' horizontal-alignment='right'>'Maßstab 1 - 2000'</TextSymbolizer>
   WellKnownText: POINT(12.0 6.0)
 
 # copyright
