@@ -127,14 +127,14 @@ UserObjects:
 
 # suction points
 - Style: |
-         <MarkersSymbolizer file='suction_point.svg' transform='scale(0.5, 0.5)' allow-overlap='true' placement='point' />
+         <MarkersSymbolizer file='suction_point.svg' transform='scale(0.7, 0.7)' allow-overlap='true' placement='point' />
   SRS: '+init=epsg:4326'
   Type: geojson
   File: suction_point.geojson
 
 # water ponds
 - Style: |
-         <MarkersSymbolizer file='fire_water_pond.svg' transform='scale(0.5, 0.5)' allow-overlap='true' placement='point' />
+         <MarkersSymbolizer file='fire_water_pond.svg' transform='scale(0.7, 0.7)' allow-overlap='true' placement='point' />
   SRS: '+init=epsg:4326'
   Type: geojson
   File: fire_water_pond.geojson
