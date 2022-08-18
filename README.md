@@ -31,3 +31,16 @@ Usage:
 $ printmaps bearingline  51.98130  7.51479  90.0  1000.0  "1000 Meter"  scalebar-1000
 ```
 
+# Generate map
+printmaps ...
+
+- optional: edit 'map.yaml'
+- optional: create (only for the first time to create a map.id file)
+- update
+- optional: upload (if additional files changed)
+- order
+- state ... state
+- download
+
+If the last creation is long ago, the map id gets deleted on the backend system. In that case the map.id file should be re-created:
+`rm map.id && printmaps create`
