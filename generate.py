@@ -81,7 +81,19 @@ class MapDefinition:
         
         print("generate map %s ..." % self.path.name)
         
+    
+    def __str__(self):
+        return f'Map(\'{self.path}\')'
         
-map = MapDefinition('/home/leif/Downloads/repositories/ffw/Hydrantenplaene/Alte Siedlung')
-print(map)
-map.update_legend()
+
+folders_to_ignore = ['bin', 'shared']
+current_dir_path = os.path.dirname(os.path.realpath(__file__))
+
+# get all top level directories without folders to ignore and hidden '.*' folders
+toplevel_directories = [os.path.join(current_dir_path, p) for p in next(os.walk(current_dir_path))[1] if p not in folders_to_ignore and p[0] != '.' and p[0] != '_']
+
+maps = [MapDefinition(d) for d in toplevel_directories]
+
+for map in maps:
+    print('update map', map.path)
+    map.update_legend()
