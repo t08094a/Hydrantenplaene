@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-
+import argparse
 import logging
 import os
+import pathlib
 import subprocess
 import time
 
@@ -9,6 +10,8 @@ from re import search
 from lxml import etree
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, wait, ALL_COMPLETED
+from retry import retry
+from retry.api import retry_call
 
 print_maps_path = os.path.abspath('./bin/printmaps')
 
@@ -21,11 +24,17 @@ class MapDefinition:
         self.path = os.path.abspath(path)
         self.name = os.path.basename(path)
     
-    def __execute_command(self, action: str) -> (int, str):
+    def __execute_command(self, action: str, capture_output: bool, verify=None) -> (int, str):
         logging.info(f'{self.name}: call \'{action}\'')
-        
-        result = subprocess.run([print_maps_path, action], capture_output=True, text=True, cwd=self.path)
+
+        result = subprocess.run([print_maps_path, action], capture_output=capture_output, text=capture_output, cwd=self.path)
         output: str = result.stdout
+
+        if result.returncode != 0:
+            logging.error(f'{self.name}: action "{action}" was not successful:\n{output}')
+
+        if verify:
+            verify()
 
         return result.returncode, output
 
@@ -38,7 +47,7 @@ class MapDefinition:
         
         logging.info(f'{self.name}: create {filename}')
         
-        return_code, _ = self.__execute_command('create')
+        return_code, _ = self.__execute_command('create', False)
 
         if return_code != 0:
             logging.error(f'{self.name}: unable to create {filename}')
@@ -81,10 +90,10 @@ class MapDefinition:
         timeout = time.time() + 60 * 10  # 10 minutes timeout
 
         while not finished_successful and time.time() < timeout:
-            return_code, output = self.__execute_command('state')
+            return_code, output = self.__execute_command('state', True)
 
             if return_code == 0:
-                status_code_match = search(r'received status = \'(\d+) \w+\'', output)
+                status_code_match = search(r'received status = \'(\d+) .+\'', output)
                 status_value = int(status_code_match.group(1) if status_code_match is not None else '-1')
 
                 if status_value != 200:
@@ -103,21 +112,47 @@ class MapDefinition:
         if not finished_successful:
             logging.error(f'{self.name}: map build not finished and ran into timeout')
 
+    @retry((ValueError, TypeError), delay=5)  # logger=logging.getLogger()
+    def __verify_downloaded_zip(self):
+        zip_filename = os.path.join(self.path, 'printmaps.zip')
+        if not os.path.exists(zip_filename):
+            raise Exception('Downloaded zip file is not present')
+
     def generate(self):
         self.__renew_map_id()
-        self.__update_legend()
+
+        if not args.no_new_legend:
+            self.__update_legend()
+
+        logging.info(f'{self.name}: cleanup old map data ...')
+        zip_container_filename = os.path.join(self.path, 'printmaps.zip')
+        if os.path.isfile(zip_container_filename):
+            os.remove(zip_container_filename)
         
         logging.info(f'{self.name}: generate map ...')
 
-        arguments = ['update', 'upload', 'order', 'download', 'unzip']
+        arguments = [
+            {'arg': 'update',   'capture_output': True},
+            {'arg': 'upload',   'capture_output': True},
+            {'arg': 'order',    'capture_output': True, 'after_action': self.__wait_until_map_build_is_finished},
+            {'arg': 'download', 'capture_output': False, 'verify': self.__verify_downloaded_zip, 'retry': True},
+            {'arg': 'unzip',    'capture_output': False}
+        ]
+
         for argument in arguments:
-            return_code, output = self.__execute_command(argument)
+            command = argument['arg']
 
-            if return_code != 0:
-                logging.error(f'{self.name}: action "{argument}" was not successful:\n{output}')
+            verify = argument['verify'] if 'verify' in argument else None
+            capture_output = argument['capture_output']
+            execute_action = lambda: self.__execute_command(command, capture_output, verify)
 
-            if argument == 'order':
-                self.__wait_until_map_build_is_finished()
+            if 'retry' in argument and argument['retry']:
+                retry_call(execute_action, delay=10)
+            else:
+                self.__execute_command(command, argument['capture_output'])
+
+            if 'after_action' in argument:
+                argument['after_action']()
 
             time.sleep(5)
         
@@ -125,21 +160,36 @@ class MapDefinition:
     
     def __str__(self):
         return f'Map(\'{self.path}\')'
-        
+
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(prog='generate.py', usage='%(prog)s [options]',
+                                     description='generates pillar plans')
+    parser.add_argument('-nnl', '--no-new-legend', dest='no_new_legend', action='store_true')
+    parser.add_argument('-a', '--area', dest='areas', type=pathlib.Path, nargs='*',
+                        help='single area of a map, e.g. \'Alte Siedlung\'')
+    local_args = parser.parse_args()
+    return local_args
+
 
 if __name__ == "__main__":
     log_format = "%(asctime)s: %(message)s"
     logging.basicConfig(format=log_format, level=logging.INFO, datefmt="%H:%M:%S")
     logging.getLogger().setLevel(logging.DEBUG)
-    
-    folders_to_ignore = ['bin', 'shared']
-    current_dir_path = os.path.dirname(os.path.realpath(__file__))
 
-    # get all top level directories without folders to ignore and hidden '.*' folders
-    toplevel_directories = [os.path.join(current_dir_path, p) for p in next(os.walk(current_dir_path))[1] if p not in
-                            folders_to_ignore and p[0] != '.' and p[0] != '_']
+    args = parse_arguments()
 
-    maps = [MapDefinition(d) for d in toplevel_directories]
+    if args.areas:
+        maps = [MapDefinition(d) for d in args.areas]
+    else:
+        folders_to_ignore = ['bin', 'shared']
+        current_dir_path = os.path.dirname(os.path.realpath(__file__))
+
+        # get all top level directories without folders to ignore and hidden '.*' folders
+        toplevel_directories = [os.path.join(current_dir_path, p) for p in next(os.walk(current_dir_path))[1] if p not in
+                                folders_to_ignore and p[0] != '.' and p[0] != '_']
+
+        maps = [MapDefinition(d) for d in toplevel_directories]
 
     with ThreadPoolExecutor(max_workers=len(maps)) as executor:
         futures = [executor.submit(current_map.generate) for current_map in maps]
