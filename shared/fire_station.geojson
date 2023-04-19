@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2022-06-12T15:10:30Z",
+  "timestamp": "2023-04-19T16:56:54Z",
   "features": [
     {
       "type": "Feature",
@@ -558,6 +558,10 @@
               49.358296
             ],
             [
+              11.3033185,
+              49.3582588
+            ],
+            [
               11.3033237,
               49.3582461
             ],
@@ -961,164 +965,38 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32984319",
+        "@id": "way/32424285",
         "amenity": "fire_station",
-        "building": "yes",
-        "name": "Freiwillige Feuerwehr Ezelsdorf"
+        "source": "Yahoo;DOP_LVA_BY01"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              11.345643,
-              49.3262645
+              11.4122149,
+              49.3690174
             ],
             [
-              11.3457351,
-              49.3262635
+              11.4121821,
+              49.3689584
             ],
             [
-              11.3457347,
-              49.3262471
+              11.4123852,
+              49.3689106
             ],
             [
-              11.34583,
-              49.3262462
+              11.4124179,
+              49.3689694
             ],
             [
-              11.3458304,
-              49.3262617
-            ],
-            [
-              11.3459085,
-              49.3262609
-            ],
-            [
-              11.3459091,
-              49.3262863
-            ],
-            [
-              11.3459858,
-              49.3262855
-            ],
-            [
-              11.3459853,
-              49.3262622
-            ],
-            [
-              11.3460967,
-              49.3262612
-            ],
-            [
-              11.3460963,
-              49.326247
-            ],
-            [
-              11.3462107,
-              49.326244
-            ],
-            [
-              11.3462142,
-              49.3263895
-            ],
-            [
-              11.346119,
-              49.3263904
-            ],
-            [
-              11.3461259,
-              49.3266802
-            ],
-            [
-              11.3462408,
-              49.3266791
-            ],
-            [
-              11.3462425,
-              49.3267516
-            ],
-            [
-              11.3459786,
-              49.3267542
-            ],
-            [
-              11.3459726,
-              49.3265065
-            ],
-            [
-              11.3459586,
-              49.3265066
-            ],
-            [
-              11.3459575,
-              49.3264624
-            ],
-            [
-              11.3459252,
-              49.3264628
-            ],
-            [
-              11.3459249,
-              49.3264505
-            ],
-            [
-              11.345862,
-              49.3264511
-            ],
-            [
-              11.3458605,
-              49.3263881
-            ],
-            [
-              11.345646,
-              49.3263903
-            ],
-            [
-              11.345643,
-              49.3262645
+              11.4122149,
+              49.3690174
             ]
           ]
         ]
       },
-      "id": "way/32984319"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/33544219",
-        "amenity": "fire_station",
-        "building": "yes",
-        "name": "Reinersdorf"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              10.8498503,
-              49.6275495
-            ],
-            [
-              10.8498855,
-              49.6274681
-            ],
-            [
-              10.8499971,
-              49.6274884
-            ],
-            [
-              10.8499619,
-              49.6275698
-            ],
-            [
-              10.8498503,
-              49.6275495
-            ]
-          ]
-        ]
-      },
-      "id": "way/33544219"
+      "id": "way/32424285"
     },
     {
       "type": "Feature",
@@ -1190,59 +1068,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/34010657",
-        "amenity": "fire_station",
-        "building": "yes",
-        "name": "Freiwillige Feuerwehr Rosenbach"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              11.093865,
-              49.6069907
-            ],
-            [
-              11.0937594,
-              49.6069476
-            ],
-            [
-              11.0938186,
-              49.6068866
-            ],
-            [
-              11.0938431,
-              49.6068966
-            ],
-            [
-              11.0938864,
-              49.606852
-            ],
-            [
-              11.0939843,
-              49.606892
-            ],
-            [
-              11.0939436,
-              49.6069339
-            ],
-            [
-              11.0939269,
-              49.606927
-            ],
-            [
-              11.093865,
-              49.6069907
-            ]
-          ]
-        ]
-      },
-      "id": "way/34010657"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/34037082",
         "addr:city": "Simmelsdorf",
         "addr:housenumber": "10",
@@ -1288,47 +1113,6 @@
         ]
       },
       "id": "way/34037082"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/34216928",
-        "addr:city": "Seukendorf",
-        "addr:housenumber": "5",
-        "addr:postcode": "90556",
-        "addr:street": "Cadolzburger Straße",
-        "amenity": "fire_station",
-        "building": "yes",
-        "name": "FFW Seukendorf"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              10.8785341,
-              49.48569
-            ],
-            [
-              10.8782412,
-              49.4856807
-            ],
-            [
-              10.8782502,
-              49.48556
-            ],
-            [
-              10.8785432,
-              49.4855693
-            ],
-            [
-              10.8785341,
-              49.48569
-            ]
-          ]
-        ]
-      },
-      "id": "way/34216928"
     },
     {
       "type": "Feature",
@@ -1936,7 +1720,8 @@
         "amenity": "fire_station",
         "building": "yes",
         "building:levels": "2",
-        "name": "Löschgruppe Stadtmitte"
+        "name": "Löschgruppe Stadtmitte",
+        "roof:shape": "gabled"
       },
       "geometry": {
         "type": "Polygon",
@@ -2125,92 +1910,6 @@
         ]
       },
       "id": "way/37771749"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/37997404",
-        "amenity": "fire_station",
-        "building": "yes",
-        "name": "Freiwillige Feuerwehr Baiersdorf",
-        "ref": "70"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              11.0292469,
-              49.6573567
-            ],
-            [
-              11.0293864,
-              49.6574333
-            ],
-            [
-              11.0294266,
-              49.6574026
-            ],
-            [
-              11.0294682,
-              49.6574255
-            ],
-            [
-              11.0294287,
-              49.6574557
-            ],
-            [
-              11.029417,
-              49.6574493
-            ],
-            [
-              11.0293218,
-              49.657522
-            ],
-            [
-              11.0292943,
-              49.6575069
-            ],
-            [
-              11.0288751,
-              49.6578268
-            ],
-            [
-              11.0286441,
-              49.6576999
-            ],
-            [
-              11.028768,
-              49.6576054
-            ],
-            [
-              11.028857,
-              49.6576543
-            ],
-            [
-              11.0291628,
-              49.6574209
-            ],
-            [
-              11.0291896,
-              49.6574356
-            ],
-            [
-              11.029229,
-              49.6574056
-            ],
-            [
-              11.0292022,
-              49.6573908
-            ],
-            [
-              11.0292469,
-              49.6573567
-            ]
-          ]
-        ]
-      },
-      "id": "way/37997404"
     },
     {
       "type": "Feature",
@@ -3540,7 +3239,7 @@
         "amenity": "fire_station",
         "building": "fire_station",
         "contact:phone": "+49 931 282324",
-        "contact:website": "www.ffw-loeschzug1.de",
+        "contact:website": "https://www.ffw-loeschzug1.de",
         "name": "Freiwillige Feuerwehr der Stadt Würzburg - Löschzug 1, Löschzug 2",
         "operator": "Stadt Würzburg"
       },
@@ -3906,6 +3605,73 @@
         ]
       },
       "id": "way/47048858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/48802688",
+        "addr:city": "Forchheim",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "91301",
+        "addr:street": "Mühlhof",
+        "addr:suburb": "Reuth",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Freiwillige Feuerwehr Reuth"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1149415,
+              49.7187551
+            ],
+            [
+              11.1149101,
+              49.7188504
+            ],
+            [
+              11.1147119,
+              49.7188231
+            ],
+            [
+              11.1146629,
+              49.7189719
+            ],
+            [
+              11.1145813,
+              49.7189607
+            ],
+            [
+              11.1145952,
+              49.7189184
+            ],
+            [
+              11.1145529,
+              49.7189125
+            ],
+            [
+              11.1145845,
+              49.7188167
+            ],
+            [
+              11.114561,
+              49.7188135
+            ],
+            [
+              11.1145959,
+              49.7187075
+            ],
+            [
+              11.1149415,
+              49.7187551
+            ]
+          ]
+        ]
+      },
+      "id": "way/48802688"
     },
     {
       "type": "Feature",
@@ -4286,7 +4052,7 @@
         "addr:street": "Ringstraße",
         "amenity": "fire_station",
         "building": "yes",
-        "contact:website": "http://www.feuerwehr-roettenbach.de/",
+        "contact:website": "https://roettenbach.feuerwehren.bayern",
         "name": "Freiwillige Feuerwehr Röttenbach",
         "ref": "35"
       },
@@ -4342,6 +4108,46 @@
         ]
       },
       "id": "way/53513396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/54599603",
+        "addr:city": "Neunkirchen a.Brand",
+        "addr:housenumber": "13",
+        "addr:postcode": "91077",
+        "addr:street": "Rödlas",
+        "amenity": "fire_station",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1818936,
+              49.6350598
+            ],
+            [
+              11.1820383,
+              49.6351328
+            ],
+            [
+              11.1819698,
+              49.6351899
+            ],
+            [
+              11.181825,
+              49.6351168
+            ],
+            [
+              11.1818936,
+              49.6350598
+            ]
+          ]
+        ]
+      },
+      "id": "way/54599603"
     },
     {
       "type": "Feature",
@@ -5105,6 +4911,12 @@
       "type": "Feature",
       "properties": {
         "@id": "way/71173316",
+        "addr:city": "Pottenstein",
+        "addr:country": "DE",
+        "addr:housenumber": "33",
+        "addr:postcode": "91278",
+        "addr:street": "Püttlach",
+        "addr:suburb": "Püttlach",
         "amenity": "fire_station",
         "building": "yes",
         "name": "Freiwillige Feuerwehr Püttlach"
@@ -5114,24 +4926,28 @@
         "coordinates": [
           [
             [
-              11.4690745,
-              49.8036775
+              11.4690701,
+              49.803679
             ],
             [
-              11.4690338,
-              49.8037536
+              11.4690445,
+              49.8037208
             ],
             [
-              11.4689118,
-              49.8037264
+              11.4690116,
+              49.8037747
             ],
             [
-              11.4689525,
-              49.8036503
+              11.4688874,
+              49.8037432
             ],
             [
-              11.4690745,
-              49.8036775
+              11.4689459,
+              49.8036474
+            ],
+            [
+              11.4690701,
+              49.803679
             ]
           ]
         ]
@@ -5182,121 +4998,39 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/72848252",
-        "addr:housenumber": "41",
-        "addr:street": "Egerlandstraße",
-        "amenity": "fire_station",
-        "building": "yes",
-        "name": "Freiwillige Feuerwehr Hagenau"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              11.0588658,
-              49.6542461
-            ],
-            [
-              11.0588426,
-              49.6545097
-            ],
-            [
-              11.0588842,
-              49.6545113
-            ],
-            [
-              11.0588795,
-              49.6545646
-            ],
-            [
-              11.0588304,
-              49.6545628
-            ],
-            [
-              11.0588301,
-              49.6545672
-            ],
-            [
-              11.058622,
-              49.6545595
-            ],
-            [
-              11.0586358,
-              49.6544038
-            ],
-            [
-              11.0587361,
-              49.6544075
-            ],
-            [
-              11.058742,
-              49.6543407
-            ],
-            [
-              11.0586389,
-              49.6543369
-            ],
-            [
-              11.0586465,
-              49.6542505
-            ],
-            [
-              11.0585482,
-              49.6542468
-            ],
-            [
-              11.0585549,
-              49.6541705
-            ],
-            [
-              11.0586878,
-              49.6541754
-            ],
-            [
-              11.0586822,
-              49.6542393
-            ],
-            [
-              11.0588658,
-              49.6542461
-            ]
-          ]
-        ]
-      },
-      "id": "way/72848252"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/72857244",
+        "addr:city": "Pottenstein",
+        "addr:country": "DE",
+        "addr:housenumber": "27",
+        "addr:postcode": "91278",
+        "addr:street": "Prüllsbirkig",
+        "addr:suburb": "Prüllsbirkig",
         "amenity": "fire_station",
-        "building": "yes",
-        "source": "Yahoo"
+        "building": "yes"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              11.4488871,
-              49.7811282
+              11.4488792,
+              49.7811339
             ],
             [
-              11.4490333,
-              49.7811453
+              11.4490429,
+              49.7811545
             ],
             [
-              11.4490183,
-              49.7811992
+              11.4490248,
+              49.7812145
             ],
             [
-              11.448872,
-              49.7811821
+              11.4488611,
+              49.781194
             ],
             [
-              11.4488871,
-              49.7811282
+              11.4488792,
+              49.7811339
             ]
           ]
         ]
@@ -5309,33 +5043,38 @@
         "@id": "way/73010233",
         "amenity": "fire_station",
         "building": "yes",
-        "name": "Feuerwehr Hasslach",
-        "source": "Yahoo",
-        "website": "https://ffhasslach.hpage.com"
+        "email": "ffhasslach@googlemail.com",
+        "name": "Freiwillige Feuerwehr Haßlach",
+        "phone": "+49 9243 325",
+        "website": "https://ffhasslach.hpage.com/"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              11.4020812,
-              49.7991289
+              11.4020772,
+              49.7991421
             ],
             [
-              11.4020957,
-              49.7992215
+              11.4020922,
+              49.7991937
             ],
             [
-              11.4019862,
-              49.7992286
+              11.4021013,
+              49.7992246
             ],
             [
-              11.4019717,
-              49.799136
+              11.4019879,
+              49.7992384
             ],
             [
-              11.4020812,
-              49.7991289
+              11.4019639,
+              49.7991559
+            ],
+            [
+              11.4020772,
+              49.7991421
             ]
           ]
         ]
@@ -5394,24 +5133,24 @@
         "coordinates": [
           [
             [
-              11.4415094,
-              49.7103495
+              11.4414987,
+              49.7103825
             ],
             [
-              11.4415123,
-              49.7104301
+              11.4415016,
+              49.7104631
             ],
             [
-              11.4413555,
-              49.7104324
+              11.4413448,
+              49.7104654
             ],
             [
-              11.4413526,
-              49.7103518
+              11.4413419,
+              49.7103848
             ],
             [
-              11.4415094,
-              49.7103495
+              11.4414987,
+              49.7103825
             ]
           ]
         ]
@@ -5463,7 +5202,51 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/75295102",
+        "addr:city": "Altdorf b.Nürnberg",
+        "addr:housenumber": "6",
+        "addr:postcode": "90518",
+        "addr:street": "Schleifmühlstraße",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "Freiwillige Feuerwehr Rasch",
+        "source": "Yahoo"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.3793961,
+              49.3693785
+            ],
+            [
+              11.3795586,
+              49.369378
+            ],
+            [
+              11.3795595,
+              49.3695232
+            ],
+            [
+              11.379397,
+              49.3695236
+            ],
+            [
+              11.3793961,
+              49.3693785
+            ]
+          ]
+        ]
+      },
+      "id": "way/75295102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/75574010",
+        "addr:housenumber": "18",
+        "addr:street": "Gundekarstraße",
         "amenity": "fire_station",
         "building": "yes",
         "name": "Freiwillige Feuerwehr Hagenhausen"
@@ -5473,24 +5256,24 @@
         "coordinates": [
           [
             [
-              11.3994257,
-              49.3774274
+              11.3994199,
+              49.3774179
             ],
             [
-              11.3995763,
-              49.37743
+              11.3995718,
+              49.3774195
             ],
             [
-              11.3995595,
-              49.3775708
+              11.3995682,
+              49.3775607
             ],
             [
-              11.3994063,
-              49.3775681
+              11.3994163,
+              49.3775591
             ],
             [
-              11.3994257,
-              49.3774274
+              11.3994199,
+              49.3774179
             ]
           ]
         ]
@@ -5500,198 +5283,40 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/75871238",
-        "addr:city": "Baiersdorf",
-        "addr:country": "DE",
-        "addr:housenumber": "7",
-        "addr:postcode": "91083",
-        "addr:street": "An der Regnitz",
+        "@id": "way/80010161",
         "amenity": "fire_station",
         "building": "yes",
-        "name": "Feuerwehrhaus FFW Wellerstadt"
+        "name": "Werkfeuerwehr Bahn Nürnberg",
+        "source": "Yahoo"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              11.0368148,
-              49.6680248
+              11.0880753,
+              49.4223894
             ],
             [
-              11.0367669,
-              49.668102
+              11.0883825,
+              49.4225292
             ],
             [
-              11.0365697,
-              49.6680509
+              11.0882809,
+              49.4226173
             ],
             [
-              11.0366176,
-              49.6679737
+              11.0879808,
+              49.4224851
             ],
             [
-              11.0368148,
-              49.6680248
+              11.0880753,
+              49.4223894
             ]
           ]
         ]
       },
-      "id": "way/75871238"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/75871396",
-        "addr:city": "Baiersdorf",
-        "addr:country": "DE",
-        "addr:housenumber": "5",
-        "addr:postcode": "91083",
-        "addr:street": "An der Regnitz",
-        "amenity": "fire_station",
-        "building": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              11.0369214,
-              49.6680586
-            ],
-            [
-              11.0370239,
-              49.6681569
-            ],
-            [
-              11.0369228,
-              49.6682011
-            ],
-            [
-              11.0368203,
-              49.6681027
-            ],
-            [
-              11.0369214,
-              49.6680586
-            ]
-          ]
-        ]
-      },
-      "id": "way/75871396"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/77820157",
-        "addr:housenumber": "1",
-        "addr:street": "Gosberger Straße",
-        "amenity": "fire_station",
-        "building": "yes",
-        "name": "Feuerwehr Kersbach"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              11.0685427,
-              49.6838939
-            ],
-            [
-              11.068378,
-              49.6838382
-            ],
-            [
-              11.0685237,
-              49.6836578
-            ],
-            [
-              11.0686884,
-              49.6837135
-            ],
-            [
-              11.0685427,
-              49.6838939
-            ]
-          ]
-        ]
-      },
-      "id": "way/77820157"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/79694122",
-        "addr:city": "Hirschaid",
-        "addr:country": "DE",
-        "addr:housenumber": "35",
-        "addr:postcode": "96114",
-        "addr:street": "Leimhüll",
-        "amenity": "fire_station",
-        "building": "yes",
-        "name": "FFW Hirschaid"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              10.9967614,
-              49.8137048
-            ],
-            [
-              10.9964098,
-              49.8141484
-            ],
-            [
-              10.9962344,
-              49.8140905
-            ],
-            [
-              10.9965487,
-              49.8136942
-            ],
-            [
-              10.9965283,
-              49.8136533
-            ],
-            [
-              10.9964172,
-              49.8136763
-            ],
-            [
-              10.9963578,
-              49.8135569
-            ],
-            [
-              10.9964014,
-              49.8135479
-            ],
-            [
-              10.9963699,
-              49.8134846
-            ],
-            [
-              10.9965022,
-              49.8134572
-            ],
-            [
-              10.9965218,
-              49.8134966
-            ],
-            [
-              10.9966451,
-              49.8134711
-            ],
-            [
-              10.9967614,
-              49.8137048
-            ]
-          ]
-        ]
-      },
-      "id": "way/79694122"
+      "id": "way/80010161"
     },
     {
       "type": "Feature",
@@ -6235,7 +5860,7 @@
         "addr:street": "Albrecht-Dürer-Straße",
         "amenity": "fire_station",
         "building": "yes",
-        "name": "Freiwillige Feuerwehr Etzelskirchen",
+        "name": "Feuerwehr Etzelskirchen",
         "ref": "24",
         "short_name": "FFW Etzelskirchen"
       },
@@ -6329,6 +5954,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/88680120",
+        "addr:housenumber": "2",
+        "addr:street": "Andreas-Hippler-Straße",
         "amenity": "fire_station",
         "building": "public",
         "name": "Freiwillige Feuerwehr Gerolzhofen"
@@ -6384,11 +6011,13 @@
         "@id": "way/88993054",
         "addr:city": "Schnaittach",
         "addr:country": "DE",
+        "addr:housenumber": "12",
         "addr:postcode": "91220",
+        "addr:street": "Uhustraße",
         "amenity": "fire_station",
         "building": "yes",
         "name": "Freiwillige Feuerwehr Hedersdorf",
-        "website": "http://www.ff-hedersdorf.de"
+        "website": "https://www.facebook.com/FeuerwehrHedersdorf/"
       },
       "geometry": {
         "type": "Polygon",
@@ -7252,24 +6881,92 @@
         "coordinates": [
           [
             [
-              9.8702241,
-              49.8139048
+              9.8702417,
+              49.8138904
             ],
             [
-              9.8703403,
+              9.8702505,
+              49.8138707
+            ],
+            [
+              9.8702681,
+              49.8138315
+            ],
+            [
+              9.8702858,
+              49.8137922
+            ],
+            [
+              9.8703034,
+              49.8137529
+            ],
+            [
+              9.8703191,
+              49.8137179
+            ],
+            [
+              9.8703006,
+              49.8137144
+            ],
+            [
+              9.8703137,
+              49.8136852
+            ],
+            [
+              9.8703177,
+              49.8136763
+            ],
+            [
+              9.8703217,
+              49.8136673
+            ],
+            [
+              9.8703458,
+              49.8136137
+            ],
+            [
+              9.870372,
               49.8136185
             ],
             [
-              9.8705077,
-              49.8136468
+              9.8703844,
+              49.8136209
             ],
             [
-              9.8703915,
-              49.8139331
+              9.870386,
+              49.8136174
             ],
             [
-              9.8702241,
-              49.8139048
+              9.8704197,
+              49.8136237
+            ],
+            [
+              9.8704181,
+              49.8136272
+            ],
+            [
+              9.8704277,
+              49.813629
+            ],
+            [
+              9.8705333,
+              49.8136487
+            ],
+            [
+              9.8704881,
+              49.8137494
+            ],
+            [
+              9.8704791,
+              49.8137477
+            ],
+            [
+              9.8704017,
+              49.8139203
+            ],
+            [
+              9.8702417,
+              49.8138904
             ]
           ]
         ]
@@ -8092,24 +7789,24 @@
         "coordinates": [
           [
             [
-              10.7790402,
-              49.8252706
+              10.7790247,
+              49.8252751
             ],
             [
-              10.7789599,
-              49.8251381
+              10.7789444,
+              49.8251426
             ],
             [
-              10.7791099,
-              49.8251015
+              10.7790944,
+              49.825106
             ],
             [
-              10.7791902,
-              49.825234
+              10.7791747,
+              49.8252385
             ],
             [
-              10.7790402,
-              49.8252706
+              10.7790247,
+              49.8252751
             ]
           ]
         ]
@@ -8174,7 +7871,7 @@
         "@id": "way/98410549",
         "amenity": "fire_station",
         "building": "yes",
-        "name": "FFW Grasmannsdorf"
+        "name": "Freiwillige Feuerwehr Grasmannsdorf"
       },
       "geometry": {
         "type": "Polygon",
@@ -8334,8 +8031,12 @@
       "type": "Feature",
       "properties": {
         "@id": "way/99405909",
+        "addr:city": "Forchheim",
+        "addr:country": "DE",
         "addr:housenumber": "49",
+        "addr:postcode": "91301",
         "addr:street": "Buckenhofener Straße",
+        "addr:suburb": "Buckenhofen",
         "amenity": "fire_station",
         "building": "yes",
         "name": "Freiwillige Feuerwehr Buckenhofen"
@@ -8488,6 +8189,53 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/99881503",
+        "addr:city": "Pommersfelden",
+        "addr:housenumber": "37",
+        "addr:postcode": "96178",
+        "addr:street": "Sambach",
+        "amenity": "fire_station",
+        "building": "yes",
+        "email": "FFSambach@gmail.com",
+        "name": "Freiwillige Feuerwehr Sambach",
+        "operator": "Gemeinde Pommersfelden"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.8428763,
+              49.781402
+            ],
+            [
+              10.8427662,
+              49.7813596
+            ],
+            [
+              10.842798,
+              49.7813252
+            ],
+            [
+              10.8428314,
+              49.7812891
+            ],
+            [
+              10.8429415,
+              49.7813315
+            ],
+            [
+              10.8428763,
+              49.781402
+            ]
+          ]
+        ]
+      },
+      "id": "way/99881503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/100034491",
         "addr:city": "Heilsbronn",
         "addr:country": "DE",
@@ -8503,24 +8251,24 @@
         "coordinates": [
           [
             [
-              10.8523562,
-              49.3280271
+              10.8523414,
+              49.3280306
             ],
             [
-              10.8522693,
-              49.3281116
+              10.8522545,
+              49.3281151
             ],
             [
-              10.8521498,
-              49.3280594
+              10.852135,
+              49.3280629
             ],
             [
-              10.8522368,
-              49.3279749
+              10.852222,
+              49.3279784
             ],
             [
-              10.8523562,
-              49.3280271
+              10.8523414,
+              49.3280306
             ]
           ]
         ]
@@ -8692,24 +8440,44 @@
         "coordinates": [
           [
             [
-              11.5706758,
-              49.6519728
+              11.5706596,
+              49.651983
             ],
             [
-              11.5705525,
-              49.6519439
+              11.5705478,
+              49.6519541
             ],
             [
-              11.5706124,
-              49.6518367
+              11.5705587,
+              49.6519364
             ],
             [
-              11.5707357,
-              49.6518656
+              11.5705729,
+              49.6519134
             ],
             [
-              11.5706758,
-              49.6519728
+              11.5705275,
+              49.6519016
+            ],
+            [
+              11.5705584,
+              49.6518516
+            ],
+            [
+              11.5705964,
+              49.6518614
+            ],
+            [
+              11.570612,
+              49.6518361
+            ],
+            [
+              11.5707312,
+              49.6518669
+            ],
+            [
+              11.5706596,
+              49.651983
             ]
           ]
         ]
@@ -9611,7 +9379,8 @@
         "addr:street": "Frankenstraße",
         "amenity": "fire_station",
         "building": "yes",
-        "name": "FFW Markt Erlbach"
+        "name": "FFW Markt Erlbach",
+        "operator": "FFW Markt Erlbach"
       },
       "geometry": {
         "type": "Polygon",
@@ -9866,7 +9635,8 @@
       "properties": {
         "@id": "way/112144053",
         "amenity": "fire_station",
-        "building": "yes"
+        "building": "yes",
+        "name:signed": "no"
       },
       "geometry": {
         "type": "Polygon",
@@ -10010,6 +9780,51 @@
         ]
       },
       "id": "way/112779383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/113047696",
+        "addr:city": "Neumarkt",
+        "addr:housenumber": "39",
+        "addr:postcode": "92318",
+        "addr:street": "Schafhofstraße",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "email": "info@ff-labersricht.de",
+        "image": "https://www.ff-labersricht.de/wp-content/uploads/2022/03/IMG_4795.jpg",
+        "name": "Freiwillige Feuerwehr Labersricht",
+        "operator": "Stadt Neumarkt",
+        "website": "www.ff-labersricht.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.4873614,
+              49.2932565
+            ],
+            [
+              11.4873614,
+              49.2931152
+            ],
+            [
+              11.4875106,
+              49.2931152
+            ],
+            [
+              11.4875106,
+              49.2932565
+            ],
+            [
+              11.4873614,
+              49.2932565
+            ]
+          ]
+        ]
+      },
+      "id": "way/113047696"
     },
     {
       "type": "Feature",
@@ -10241,10 +10056,11 @@
       "properties": {
         "@id": "way/117461021",
         "addr:city": "Pinzberg",
+        "addr:country": "DE",
         "addr:housenumber": "23",
-        "addr:place": "Gosberg",
         "addr:postcode": "91361",
         "addr:street": "Bahnhofstraße",
+        "addr:suburb": "Gosberg",
         "amenity": "fire_station",
         "building": "yes",
         "name": "Freiwillige Feuerwehr Gosberg",
@@ -10289,7 +10105,7 @@
         "addr:postcode": "97070",
         "addr:street": "Hofstallstraße",
         "amenity": "fire_station",
-        "contact:website": "www.wuerzburg.de/de/themen/umwelt-verkehr/gefahrenabwehr/berufsfeuerwehr/index.html",
+        "contact:website": "https://www.wuerzburg.de/de/themen/umwelt-verkehr/gefahrenabwehr/berufsfeuerwehr/index.html",
         "fire_station:type": "occupation",
         "name": "Berufsfeuerwehr Würzburg"
       },
@@ -10298,12 +10114,24 @@
         "coordinates": [
           [
             [
-              9.941282,
-              49.7949421
+              9.9412818,
+              49.7949434
+            ],
+            [
+              9.9417398,
+              49.7951974
             ],
             [
               9.9418469,
               49.7952568
+            ],
+            [
+              9.9413705,
+              49.795834
+            ],
+            [
+              9.9413333,
+              49.795879
             ],
             [
               9.941285,
@@ -10322,8 +10150,8 @@
               49.7953762
             ],
             [
-              9.941282,
-              49.7949421
+              9.9412818,
+              49.7949434
             ]
           ]
         ]
@@ -10391,40 +10219,44 @@
         "coordinates": [
           [
             [
-              10.5360774,
-              49.6233592
+              10.5360506,
+              49.6233621
             ],
             [
-              10.5360951,
-              49.6233591
+              10.5360829,
+              49.6233616
             ],
             [
-              10.5360965,
-              49.6234402
+              10.536086,
+              49.6234427
             ],
             [
-              10.5359249,
-              49.6234414
+              10.5359144,
+              49.6234454
             ],
             [
-              10.5359241,
-              49.6233951
+              10.5359127,
+              49.6233991
             ],
             [
-              10.5358671,
-              49.6233955
+              10.5358556,
+              49.6234
             ],
             [
-              10.5358647,
-              49.6232612
+              10.5358506,
+              49.6232657
             ],
             [
-              10.5360757,
-              49.6232597
+              10.5360311,
+              49.6232629
             ],
             [
-              10.5360774,
-              49.6233592
+              10.5360469,
+              49.6232626
+            ],
+            [
+              10.5360506,
+              49.6233621
             ]
           ]
         ]
@@ -10494,10 +10326,6 @@
             [
               11.5858093,
               49.8129797
-            ],
-            [
-              11.5858479,
-              49.8129805
             ],
             [
               11.5859849,
@@ -11309,8 +11137,8 @@
         "addr:postcode": "90530",
         "addr:street": "Rieterstraße",
         "amenity": "fire_station",
-        "building": "yes",
-        "name": "FFW Kleinschwarzenlohe",
+        "building": "fire_station",
+        "name": "Feuerwehr Kleinschwarzenlohe",
         "website": "http://www.ff-kleinschwarzenlohe.de"
       },
       "geometry": {
@@ -11560,24 +11388,24 @@
         "coordinates": [
           [
             [
-              11.3557314,
-              49.6379211
+              11.3557649,
+              49.6379029
             ],
             [
-              11.3559357,
-              49.6379611
+              11.3559692,
+              49.6379429
             ],
             [
-              11.3558914,
-              49.6380561
+              11.3559249,
+              49.6380379
             ],
             [
-              11.3556871,
-              49.6380162
+              11.3557206,
+              49.637998
             ],
             [
-              11.3557314,
-              49.6379211
+              11.3557649,
+              49.6379029
             ]
           ]
         ]
@@ -11763,10 +11591,14 @@
       "type": "Feature",
       "properties": {
         "@id": "way/144313922",
+        "addr:city": "Leutershausen",
+        "addr:housenumber": "10",
+        "addr:postcode": "91578",
+        "addr:street": "Färbereistraße",
         "amenity": "fire_station",
         "building": "yes",
         "name": "Freiwillige Feuerwehr Leutershausen",
-        "source": "http://www.feuerwehr-leutershausen.1x.de"
+        "website": "http://ffw-leutershausen.de"
       },
       "geometry": {
         "type": "Polygon",
@@ -12707,63 +12539,51 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/154127018",
+        "@id": "way/155637337",
+        "addr:city": "Rügshofen",
+        "addr:housenumber": "1a",
+        "addr:postcode": "97447",
+        "addr:street": "Schönbühl",
         "amenity": "fire_station",
-        "building": "garages",
-        "name": "Freiwillige Feuerwehr Würzburg-Zellerau"
+        "building": "yes",
+        "name": "Feuerwehr Rügshofen"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              9.9057766,
-              49.7990365
+              10.3593361,
+              49.9095754
             ],
             [
-              9.9057841,
-              49.7990278
+              10.3593543,
+              49.9095209
             ],
             [
-              9.905886,
-              49.7989098
+              10.3593671,
+              49.9095227
             ],
             [
-              9.9059211,
-              49.7989224
+              10.3595901,
+              49.9095536
             ],
             [
-              9.9059555,
-              49.7989348
+              10.359673,
+              49.9095651
             ],
             [
-              9.9060199,
-              49.7989579
+              10.3596548,
+              49.9096196
             ],
             [
-              9.9059975,
-              49.7989838
-            ],
-            [
-              9.9059586,
-              49.7990289
-            ],
-            [
-              9.9059285,
-              49.7990637
-            ],
-            [
-              9.9059105,
-              49.7990847
-            ],
-            [
-              9.9057766,
-              49.7990365
+              10.3593361,
+              49.9095754
             ]
           ]
         ]
       },
-      "id": "way/154127018"
+      "id": "way/155637337"
     },
     {
       "type": "Feature",
@@ -13019,8 +12839,12 @@
       "type": "Feature",
       "properties": {
         "@id": "way/162284906",
+        "addr:city": "Effeltrich",
+        "addr:country": "DE",
         "addr:housenumber": "21",
+        "addr:postcode": "91090",
         "addr:street": "Gaiganzer Hauptstraße",
+        "addr:suburb": "Gaiganz",
         "amenity": "fire_station",
         "building": "yes",
         "name": "Freiwillige Feuerwehr Gaiganz",
@@ -13060,36 +12884,80 @@
       "properties": {
         "@id": "way/162284949",
         "amenity": "fire_station",
-        "building": "yes"
+        "building": "yes",
+        "layer": "-1",
+        "name": "Altes Feuerwehrhaus"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              11.1286131,
-              49.6710818
+              11.1282869,
+              49.6709929
             ],
             [
-              11.1286186,
-              49.6709682
+              11.1282924,
+              49.6708793
             ],
             [
-              11.1287553,
-              49.6709709
+              11.1284291,
+              49.670882
             ],
             [
-              11.1287498,
-              49.6710845
+              11.1284236,
+              49.6709956
             ],
             [
-              11.1286131,
-              49.6710818
+              11.1282869,
+              49.6709929
             ]
           ]
         ]
       },
       "id": "way/162284949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/162467193",
+        "addr:city": "Kunreuth",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "91358",
+        "addr:street": "Paul-Strian-Straße",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Freiwillige Feuerwehr Kunreuth"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1423303,
+              49.6807383
+            ],
+            [
+              11.1421869,
+              49.6807005
+            ],
+            [
+              11.1422635,
+              49.6805789
+            ],
+            [
+              11.1424068,
+              49.6806166
+            ],
+            [
+              11.1423303,
+              49.6807383
+            ]
+          ]
+        ]
+      },
+      "id": "way/162467193"
     },
     {
       "type": "Feature",
@@ -13138,7 +13006,8 @@
       "properties": {
         "@id": "way/166774803",
         "amenity": "fire_station",
-        "building": "yes"
+        "building": "yes",
+        "name": "Feuerwehr Hundshaupten"
       },
       "geometry": {
         "type": "Polygon",
@@ -13337,7 +13206,8 @@
         "amenity": "fire_station",
         "building": "yes",
         "name": "Freiwillige Feuerwehr Forth",
-        "short_name": "FFW Forth"
+        "short_name": "FFW Forth",
+        "website": "https://feuerwehr-forth.de/"
       },
       "geometry": {
         "type": "Polygon",
@@ -13752,7 +13622,8 @@
         "addr:street": "Erleinhofer Straße",
         "amenity": "fire_station",
         "building": "yes",
-        "name": "Freiwillige Feuerwehr Neunkirchen am Brand"
+        "name": "Freiwillige Feuerwehr Neunkirchen am Brand",
+        "operator": "Marktgemeinde Neunkirchen am Brand"
       },
       "geometry": {
         "type": "Polygon",
@@ -13767,12 +13638,12 @@
               49.6121614
             ],
             [
-              11.1251079,
-              49.612245
+              11.1249957,
+              49.612218
             ],
             [
-              11.1251244,
-              49.6122139
+              11.1250109,
+              49.6121885
             ],
             [
               11.1249494,
@@ -13843,6 +13714,43 @@
         ]
       },
       "id": "way/180158521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180567476",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Feuerwehr Wohlmuthshüll"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.2234323,
+              49.7755294
+            ],
+            [
+              11.2233632,
+              49.7754467
+            ],
+            [
+              11.2234698,
+              49.7754096
+            ],
+            [
+              11.2235389,
+              49.7754923
+            ],
+            [
+              11.2234323,
+              49.7755294
+            ]
+          ]
+        ]
+      },
+      "id": "way/180567476"
     },
     {
       "type": "Feature",
@@ -13982,7 +13890,7 @@
         "amenity": "fire_station",
         "building": "yes",
         "contact:email": "mail@ffoberduerrbach.de",
-        "contact:website": "www.ffoberduerrbach.de",
+        "contact:website": "https://www.ffoberduerrbach.de",
         "name": "Freiwilllige Feuerwehr Oberdürrbach"
       },
       "geometry": {
@@ -14501,6 +14409,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/191540583",
+        "addr:housenumber": "50",
+        "addr:street": "Hersbrucker Straße",
         "amenity": "fire_station",
         "building": "yes",
         "name": "Freiwillige Feuerwehr Hartmannshof",
@@ -15163,6 +15073,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/199913331",
+        "addr:city": "Neuhaus a.d.Pegnitz",
+        "addr:housenumber": "2",
+        "addr:postcode": "91284",
+        "addr:street": "Am Giedenfels",
         "amenity": "fire_station",
         "building": "fire_station",
         "name": "Freiwillige Feuerwehr Neuhaus a.d. Pegnitz"
@@ -15268,6 +15182,44 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/200306840",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Freiwillige Feuerwehr Endsee",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.2376374,
+              49.4470544
+            ],
+            [
+              10.2375145,
+              49.4469723
+            ],
+            [
+              10.2375918,
+              49.4469234
+            ],
+            [
+              10.2377147,
+              49.4470054
+            ],
+            [
+              10.2376374,
+              49.4470544
+            ]
+          ]
+        ]
+      },
+      "id": "way/200306840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/200772632",
         "amenity": "fire_station",
         "building": "yes"
@@ -15300,6 +15252,43 @@
         ]
       },
       "id": "way/200772632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/200907823",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "operator": "FF Rittershof"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.4085998,
+              49.2832908
+            ],
+            [
+              11.4083533,
+              49.2832782
+            ],
+            [
+              11.4083619,
+              49.2832068
+            ],
+            [
+              11.4086084,
+              49.2832195
+            ],
+            [
+              11.4085998,
+              49.2832908
+            ]
+          ]
+        ]
+      },
+      "id": "way/200907823"
     },
     {
       "type": "Feature",
@@ -15353,6 +15342,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/201018067",
+        "addr:city": "Berngau",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "92361",
+        "addr:street": "Buchbergstraße",
         "amenity": "fire_station",
         "building": "yes",
         "operator": "Freiwillige Feuerwehr Berngau-Tyrolsberg",
@@ -15417,24 +15411,24 @@
         "coordinates": [
           [
             [
-              10.8119007,
-              49.5691995
+              10.8119075,
+              49.5691989
             ],
             [
-              10.8117783,
-              49.5691775
+              10.8118149,
+              49.5691884
             ],
             [
-              10.8118141,
-              49.5690935
+              10.8118385,
+              49.5691015
             ],
             [
-              10.8119366,
-              49.5691155
+              10.8119311,
+              49.569112
             ],
             [
-              10.8119007,
-              49.5691995
+              10.8119075,
+              49.5691989
             ]
           ]
         ]
@@ -15481,10 +15475,67 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/202323575",
+        "addr:housenumber": "18",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "FF Ilmenau"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.511853,
+              49.7958438
+            ],
+            [
+              10.5118604,
+              49.795779
+            ],
+            [
+              10.5119416,
+              49.795785
+            ],
+            [
+              10.5119358,
+              49.7958474
+            ],
+            [
+              10.5119157,
+              49.7958462
+            ],
+            [
+              10.5119123,
+              49.7958671
+            ],
+            [
+              10.5118751,
+              49.7958652
+            ],
+            [
+              10.5118784,
+              49.7958451
+            ],
+            [
+              10.511853,
+              49.7958438
+            ]
+          ]
+        ]
+      },
+      "id": "way/202323575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/202639383",
+        "addr:city": "Rauhenebrach",
+        "addr:country": "DE",
         "addr:housenumber": "4",
         "addr:postcode": "96181",
         "addr:street": "Schulberg",
+        "addr:suburb": "Fürnbach",
         "amenity": "fire_station",
         "building": "yes",
         "name": "Freiwillige Feuerwehr Fürnbach",
@@ -15518,74 +15569,6 @@
         ]
       },
       "id": "way/202639383"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/202672580",
-        "amenity": "fire_station",
-        "building": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              10.0458268,
-              49.8439095
-            ],
-            [
-              10.0458537,
-              49.8436954
-            ],
-            [
-              10.0458985,
-              49.8436977
-            ],
-            [
-              10.0459052,
-              49.8436445
-            ],
-            [
-              10.0460382,
-              49.8436514
-            ],
-            [
-              10.0460348,
-              49.8436791
-            ],
-            [
-              10.0461125,
-              49.8436831
-            ],
-            [
-              10.0460708,
-              49.8440155
-            ],
-            [
-              10.0460069,
-              49.8440122
-            ],
-            [
-              10.0460132,
-              49.8439613
-            ],
-            [
-              10.0458487,
-              49.8439527
-            ],
-            [
-              10.045854,
-              49.843911
-            ],
-            [
-              10.0458268,
-              49.8439095
-            ]
-          ]
-        ]
-      },
-      "id": "way/202672580"
     },
     {
       "type": "Feature",
@@ -15745,7 +15728,7 @@
         "contact:email": "info@ff-unterduerrbach.de",
         "contact:fax": "+49 931 9701396",
         "contact:phone": "+49 931 97374",
-        "contact:website": "www.ff-unterduerrbach.de",
+        "contact:website": "https://www.ff-unterduerrbach.de",
         "name": "Freiwillige Feuerwehr Unterdürrbach"
       },
       "geometry": {
@@ -15753,48 +15736,64 @@
         "coordinates": [
           [
             [
-              9.9133153,
-              49.8090066
+              9.9133073,
+              49.8090005
             ],
             [
-              9.9135014,
-              49.8091044
+              9.9134934,
+              49.8090983
             ],
             [
-              9.9134272,
-              49.8091632
+              9.9134563,
+              49.8091274
             ],
             [
-              9.9133448,
-              49.8091199
+              9.9134192,
+              49.8091571
             ],
             [
-              9.9133037,
-              49.8091524
+              9.9133368,
+              49.8091138
             ],
             [
-              9.9132263,
-              49.8091118
+              9.9132957,
+              49.8091463
             ],
             [
-              9.9132679,
-              49.8090788
+              9.9132183,
+              49.8091057
             ],
             [
-              9.9131214,
-              49.8090019
+              9.9132599,
+              49.8090727
             ],
             [
-              9.9133307,
-              49.808836
+              9.9131134,
+              49.8089958
             ],
             [
-              9.9134509,
-              49.8088992
+              9.9133227,
+              49.8088299
             ],
             [
-              9.9133153,
-              49.8090066
+              9.9134412,
+              49.8088921
+            ],
+            [
+              9.9134162,
+              49.8089126
+            ],
+            [
+              9.9133609,
+              49.8089589
+            ],
+            [
+              9.9133342,
+              49.8089797
+            ],
+            [
+              9.9133073,
+              49.8090005
             ]
           ]
         ]
@@ -16170,7 +16169,7 @@
         "amenity": "fire_station",
         "contact:email": "loeschzug4@feuerwehr-wuerzburg.org",
         "contact:phone": "+49 931 309060",
-        "contact:website": "www.ffwue-loeschzug4.de",
+        "contact:website": "https://www.ffwue-loeschzug4.de",
         "name": "FFW Würzburg - Löschzug 4 Zellerau"
       },
       "geometry": {
@@ -16265,6 +16264,68 @@
         ]
       },
       "id": "way/212449817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/214792772",
+        "amenity": "fire_station",
+        "building": "yes",
+        "inscription": "FFW.-Schauerberg",
+        "name": "Freiwillige Feuerwehr Schauerberg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.7002172,
+              49.535727
+            ],
+            [
+              10.7001986,
+              49.5357175
+            ],
+            [
+              10.70016,
+              49.5356978
+            ],
+            [
+              10.7001325,
+              49.5356837
+            ],
+            [
+              10.7000906,
+              49.5356622
+            ],
+            [
+              10.7001743,
+              49.5355934
+            ],
+            [
+              10.7002426,
+              49.5356283
+            ],
+            [
+              10.7002671,
+              49.5356409
+            ],
+            [
+              10.7002877,
+              49.5356514
+            ],
+            [
+              10.7003009,
+              49.5356582
+            ],
+            [
+              10.7002172,
+              49.535727
+            ]
+          ]
+        ]
+      },
+      "id": "way/214792772"
     },
     {
       "type": "Feature",
@@ -16824,9 +16885,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/225691578",
+        "addr:housenumber": "24",
+        "addr:street": "Gartenstraße",
         "amenity": "fire_station",
         "building": "yes",
-        "name": "FFW Prühl"
+        "name": "Freiwillige Feuerwehr Prühl"
       },
       "geometry": {
         "type": "Polygon",
@@ -16969,8 +17032,8 @@
               49.8015399
             ],
             [
-              9.8225131,
-              49.8015811
+              9.8225228,
+              49.8015754
             ],
             [
               9.822395,
@@ -18579,7 +18642,8 @@
         "amenity": "fire_station",
         "building": "yes",
         "name": "Feuerwehr Gerabronn",
-        "operator": "Stadtverwaltung Gerabronn"
+        "operator": "Stadtverwaltung Gerabronn",
+        "website": "https://ffw-gerabronn.de"
       },
       "geometry": {
         "type": "Polygon",
@@ -18866,9 +18930,12 @@
       "type": "Feature",
       "properties": {
         "@id": "way/261418763",
+        "addr:housenumber": "8",
+        "addr:street": "Florianstraße",
         "amenity": "fire_station",
         "building": "public",
-        "name": "FFW Stadelschwarzach"
+        "name": "FFW Stadelschwarzach",
+        "roof:shape": "half-hipped"
       },
       "geometry": {
         "type": "Polygon",
@@ -19290,6 +19357,78 @@
         ]
       },
       "id": "way/264953750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/267594660",
+        "addr:city": "Stein",
+        "addr:housenumber": "9",
+        "addr:postcode": "90547",
+        "addr:street": "Hauptstraße",
+        "amenity": "fire_station",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.005093,
+              49.4109574
+            ],
+            [
+              11.0050861,
+              49.4109753
+            ],
+            [
+              11.0050111,
+              49.4109629
+            ],
+            [
+              11.005018,
+              49.410945
+            ],
+            [
+              11.0047138,
+              49.4108947
+            ],
+            [
+              11.0047766,
+              49.410734
+            ],
+            [
+              11.005221,
+              49.4108075
+            ],
+            [
+              11.0052293,
+              49.4107863
+            ],
+            [
+              11.0053147,
+              49.4108005
+            ],
+            [
+              11.0053064,
+              49.4108216
+            ],
+            [
+              11.0054715,
+              49.4108489
+            ],
+            [
+              11.0054088,
+              49.4110096
+            ],
+            [
+              11.005093,
+              49.4109574
+            ]
+          ]
+        ]
+      },
+      "id": "way/267594660"
     },
     {
       "type": "Feature",
@@ -19743,7 +19882,7 @@
       "properties": {
         "@id": "way/276612271",
         "amenity": "fire_station",
-        "building": "yes",
+        "building": "fire_station",
         "name": "Freiwillige Feuerwehr Breitenlesau-Siegritzberg"
       },
       "geometry": {
@@ -19903,7 +20042,7 @@
         "addr:street": "Brennerheide",
         "amenity": "fire_station",
         "building": "yes",
-        "name": "Feuerwehr Defersdorf"
+        "name": "Freiwillige Feuerwehr Defersdorf"
       },
       "geometry": {
         "type": "Polygon",
@@ -20827,6 +20966,98 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/306681013",
+        "addr:housenumber": "4",
+        "addr:street": "Im Zentrum",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "FFW Gerätehaus"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.2040017,
+              49.5756002
+            ],
+            [
+              11.2039528,
+              49.5757432
+            ],
+            [
+              11.2037043,
+              49.5757075
+            ],
+            [
+              11.203707,
+              49.5756996
+            ],
+            [
+              11.2036163,
+              49.5756866
+            ],
+            [
+              11.2036482,
+              49.5755931
+            ],
+            [
+              11.2037923,
+              49.5756138
+            ],
+            [
+              11.2038065,
+              49.5755722
+            ],
+            [
+              11.2040017,
+              49.5756002
+            ]
+          ]
+        ]
+      },
+      "id": "way/306681013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306979460",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Feuerwehrhaus"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.4343542,
+              49.2674529
+            ],
+            [
+              11.4343521,
+              49.267354
+            ],
+            [
+              11.4345664,
+              49.267352
+            ],
+            [
+              11.4345686,
+              49.2674509
+            ],
+            [
+              11.4343542,
+              49.2674529
+            ]
+          ]
+        ]
+      },
+      "id": "way/306979460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/307125582",
         "amenity": "fire_station",
         "building": "yes",
@@ -21250,7 +21481,7 @@
         "amenity": "fire_station",
         "building": "yes",
         "name": "FFW Fischbach",
-        "website": "http://www.ff-fischbach.de/"
+        "website": "https://www.ff-fischbach.de/"
       },
       "geometry": {
         "type": "Polygon",
@@ -21482,9 +21713,59 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/321385508",
+        "@id": "way/321302102",
+        "addr:city": "Cadolzburg",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "90556",
+        "addr:street": "Brunnenstraße",
         "amenity": "fire_station",
         "building": "yes",
+        "name": "FFW Cadolzburg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.8560268,
+              49.4596194
+            ],
+            [
+              10.8561418,
+              49.4595659
+            ],
+            [
+              10.8562187,
+              49.4595301
+            ],
+            [
+              10.8562993,
+              49.4596026
+            ],
+            [
+              10.8561122,
+              49.4596909
+            ],
+            [
+              10.8561077,
+              49.459693
+            ],
+            [
+              10.8560268,
+              49.4596194
+            ]
+          ]
+        ]
+      },
+      "id": "way/321302102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321385508",
+        "amenity": "fire_station",
+        "building": "fire_station",
         "name": "Freiwillige Feuerwehr Hohenstein"
       },
       "geometry": {
@@ -22206,7 +22487,8 @@
         "@id": "way/348170316",
         "amenity": "fire_station",
         "name": "FW Neumarkt i.d.OPf.",
-        "website": "https://feuerwehr.neumarkt.de/"
+        "website": "https://feuerwehr.neumarkt.de/",
+        "wikimedia_commons": "Category:Feuerwehrhaus Neumarkt Oberpfalz"
       },
       "geometry": {
         "type": "Polygon",
@@ -22221,15 +22503,19 @@
               49.2827508
             ],
             [
-              11.4506501,
-              49.2822235
+              11.4503573,
+              49.2824333
             ],
             [
-              11.4510478,
-              49.2818788
+              11.4506186,
+              49.2822088
             ],
             [
-              11.451186,
+              11.4510325,
+              49.2818647
+            ],
+            [
+              11.4512022,
               49.2818892
             ],
             [
@@ -22405,6 +22691,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/362058813",
+        "addr:city": "Markt Erlbach",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:place": "Jobstgreuth",
+        "addr:postcode": "91459",
         "amenity": "fire_station",
         "building": "yes",
         "name": "FFW Jobstgreuth"
@@ -22671,24 +22962,24 @@
         "coordinates": [
           [
             [
-              9.6241039,
-              49.8951618
+              9.6241104,
+              49.8951529
             ],
             [
-              9.6240771,
-              49.8952343
+              9.6240873,
+              49.8952207
             ],
             [
-              9.6239028,
-              49.8952136
+              9.623916,
+              49.8951965
             ],
             [
-              9.6239242,
-              49.895141
+              9.6239391,
+              49.8951287
             ],
             [
-              9.6241039,
-              49.8951618
+              9.6241104,
+              49.8951529
             ]
           ]
         ]
@@ -23032,6 +23323,47 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/391051974",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Freiwillige Feuerwehr Hartershofen"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.2370382,
+              49.418241
+            ],
+            [
+              10.2370554,
+              49.4183528
+            ],
+            [
+              10.2367744,
+              49.4183712
+            ],
+            [
+              10.2367633,
+              49.4182995
+            ],
+            [
+              10.2367571,
+              49.4182594
+            ],
+            [
+              10.2370382,
+              49.418241
+            ]
+          ]
+        ]
+      },
+      "id": "way/391051974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/391094621",
         "amenity": "fire_station",
         "building": "yes",
@@ -23042,32 +23374,32 @@
         "coordinates": [
           [
             [
-              10.2702249,
-              49.8979524
+              10.2702276,
+              49.8979559
             ],
             [
-              10.2701977,
-              49.8977679
+              10.2702004,
+              49.8977714
             ],
             [
-              10.2704442,
-              49.8977528
+              10.2704469,
+              49.8977563
             ],
             [
-              10.2704591,
-              49.8978531
+              10.2704618,
+              49.8978566
             ],
             [
-              10.2704103,
-              49.8978561
+              10.270413,
+              49.8978596
             ],
             [
-              10.2704227,
-              49.8979402
+              10.2704254,
+              49.8979437
             ],
             [
-              10.2702249,
-              49.8979524
+              10.2702276,
+              49.8979559
             ]
           ]
         ]
@@ -23080,7 +23412,7 @@
         "@id": "way/394470101",
         "amenity": "fire_station",
         "building": "yes",
-        "name": "FFW Mühlhausen (Werneck)"
+        "name": "FFW Mühlhausen (Estenfeld)"
       },
       "geometry": {
         "type": "Polygon",
@@ -23263,69 +23595,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/404086565",
-        "addr:housenumber": "2",
-        "addr:street": "Im Zentrum",
-        "amenity": "fire_station",
-        "building": "yes",
-        "name": "FFW Gerätehaus"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              11.2039552,
-              49.5757434
-            ],
-            [
-              11.2040076,
-              49.5755876
-            ],
-            [
-              11.2041035,
-              49.5756012
-            ],
-            [
-              11.2041018,
-              49.5756065
-            ],
-            [
-              11.2042429,
-              49.5756264
-            ],
-            [
-              11.2041985,
-              49.5757585
-            ],
-            [
-              11.2041089,
-              49.5757459
-            ],
-            [
-              11.2040989,
-              49.5757755
-            ],
-            [
-              11.2040197,
-              49.5757644
-            ],
-            [
-              11.2040235,
-              49.575753
-            ],
-            [
-              11.2039552,
-              49.5757434
-            ]
-          ]
-        ]
-      },
-      "id": "way/404086565"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/406178993",
         "amenity": "fire_station",
         "building": "public",
@@ -23504,6 +23773,43 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/413191309",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Feuerwehr Pölling"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.41512,
+              49.2949834
+            ],
+            [
+              11.4152867,
+              49.2949103
+            ],
+            [
+              11.4153731,
+              49.2949941
+            ],
+            [
+              11.4152064,
+              49.2950672
+            ],
+            [
+              11.41512,
+              49.2949834
+            ]
+          ]
+        ]
+      },
+      "id": "way/413191309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/413343912",
         "addr:city": "Wolframs-Eschenbach",
         "addr:housenumber": "3",
@@ -23634,9 +23940,10 @@
         "addr:housenumber": "9",
         "addr:place": "Guntersrieth",
         "addr:postcode": "91224",
+        "addr:street": "Guntersrieth",
         "amenity": "fire_station",
-        "building": "detached",
-        "name": "FFW Guntersried",
+        "building": "house",
+        "name": "Freiwillige Feuerwehr Guntersrieth",
         "note": "Dieser Ort hat keine Strassennamen. In den Adressangaben wird an Stelle von „addr:street“ addr:place=Ort(-steil) eintragen",
         "roof:shape": "gabled",
         "source": "Bing"
@@ -23669,42 +23976,6 @@
         ]
       },
       "id": "way/416754396"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/417691377",
-        "amenity": "fire_station",
-        "building": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              11.1353168,
-              49.7132895
-            ],
-            [
-              11.135467,
-              49.7132323
-            ],
-            [
-              11.1355357,
-              49.7133077
-            ],
-            [
-              11.1353855,
-              49.7133649
-            ],
-            [
-              11.1353168,
-              49.7132895
-            ]
-          ]
-        ]
-      },
-      "id": "way/417691377"
     },
     {
       "type": "Feature",
@@ -24033,6 +24304,47 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/430281019",
+        "addr:city": "Pommelsbrunn",
+        "addr:housenumber": "18",
+        "addr:postcode": "91224",
+        "addr:street": "Heldmannsberg",
+        "amenity": "fire_station",
+        "building": "garage",
+        "name": "Freiwillige Feuerwehr Guntersrieth"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.5606553,
+              49.4642078
+            ],
+            [
+              11.560549,
+              49.4642068
+            ],
+            [
+              11.5605517,
+              49.4640808
+            ],
+            [
+              11.5606581,
+              49.4640818
+            ],
+            [
+              11.5606553,
+              49.4642078
+            ]
+          ]
+        ]
+      },
+      "id": "way/430281019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/431224040",
         "addr:city": "Giebelstadt",
         "addr:housenumber": "4",
@@ -24040,6 +24352,8 @@
         "addr:street": "Marktplatz",
         "amenity": "fire_station",
         "building": "yes",
+        "name": "FF Giebelstadt",
+        "ref": "Gieb",
         "website": "http://www.feuerwehr-giebelstadt.de"
       },
       "geometry": {
@@ -24427,6 +24741,7 @@
       "properties": {
         "@id": "way/437146943",
         "addr:city": "Obermichelbach",
+        "addr:country": "DE",
         "addr:housenumber": "2-4",
         "addr:postcode": "90587",
         "addr:street": "Zum Eichweiher",
@@ -24633,24 +24948,24 @@
         "coordinates": [
           [
             [
-              10.2207494,
-              49.7915504
+              10.22077,
+              49.7915603
             ],
             [
-              10.2208431,
-              49.7914517
+              10.2208584,
+              49.7914687
             ],
             [
-              10.2209317,
-              49.7914868
+              10.2209339,
+              49.791499
             ],
             [
-              10.220838,
-              49.7915855
+              10.2208455,
+              49.7915906
             ],
             [
-              10.2207494,
-              49.7915504
+              10.22077,
+              49.7915603
             ]
           ]
         ]
@@ -25250,6 +25565,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/464174260",
+        "addr:city": "Neustadt an der Aisch",
+        "addr:country": "DE",
+        "addr:postcode": "91413",
+        "addr:street": "Unternesselbach",
         "amenity": "fire_station",
         "building": "yes",
         "name": "FFW Unternesselbach"
@@ -25461,24 +25780,24 @@
         "coordinates": [
           [
             [
-              9.6864638,
-              49.4279684
+              9.6866323,
+              49.4278371
             ],
             [
-              9.6866114,
-              49.4280527
+              9.6867869,
+              49.4279283
             ],
             [
-              9.6865059,
-              49.4281308
+              9.6865112,
+              49.4281365
             ],
             [
-              9.6863583,
-              49.4280465
+              9.6863548,
+              49.4280488
             ],
             [
-              9.6864638,
-              49.4279684
+              9.6866323,
+              49.4278371
             ]
           ]
         ]
@@ -26097,7 +26416,8 @@
         "addr:postcode": "97947",
         "addr:street": "Hauptstraße",
         "amenity": "fire_station",
-        "building": "yes"
+        "building": "yes",
+        "name": "Freiwillige Feuerwehr Grünsfeld"
       },
       "geometry": {
         "type": "Polygon",
@@ -26301,6 +26621,42 @@
         ]
       },
       "id": "way/495473984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/496087213",
+        "amenity": "fire_station",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.5355667,
+              49.7724947
+            ],
+            [
+              10.5356349,
+              49.772487
+            ],
+            [
+              10.5356502,
+              49.7725432
+            ],
+            [
+              10.535582,
+              49.772551
+            ],
+            [
+              10.5355667,
+              49.7724947
+            ]
+          ]
+        ]
+      },
+      "id": "way/496087213"
     },
     {
       "type": "Feature",
@@ -26574,6 +26930,44 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/500996874",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Feuerwehr Saugendorf",
+        "source": "DOP_LVA_BY_01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.3144599,
+              49.8289153
+            ],
+            [
+              11.3145727,
+              49.8289128
+            ],
+            [
+              11.3145754,
+              49.8289644
+            ],
+            [
+              11.3144626,
+              49.8289669
+            ],
+            [
+              11.3144599,
+              49.8289153
+            ]
+          ]
+        ]
+      },
+      "id": "way/500996874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/501068711",
         "amenity": "fire_station",
         "building": "yes",
@@ -26832,6 +27226,81 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/502902740",
+        "amenity": "fire_station",
+        "building": "yes",
+        "source": "DOP_LVA_BY_01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.2643778,
+              49.7907558
+            ],
+            [
+              11.2644122,
+              49.7907056
+            ],
+            [
+              11.2645251,
+              49.7907378
+            ],
+            [
+              11.2644908,
+              49.790788
+            ],
+            [
+              11.2643778,
+              49.7907558
+            ]
+          ]
+        ]
+      },
+      "id": "way/502902740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/502942616",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Feuerwehr Kanndorf",
+        "source": "DOP_LVA_BY_01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.2474267,
+              49.7767512
+            ],
+            [
+              11.2474979,
+              49.7767615
+            ],
+            [
+              11.2474755,
+              49.7768262
+            ],
+            [
+              11.2474042,
+              49.7768158
+            ],
+            [
+              11.2474267,
+              49.7767512
+            ]
+          ]
+        ]
+      },
+      "id": "way/502942616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/506663339",
         "amenity": "fire_station",
         "building": "yes",
@@ -27065,6 +27534,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/513149347",
+        "addr:city": "Neustadt an der Aisch",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "91413",
+        "addr:street": "Torweg",
         "amenity": "fire_station",
         "building": "yes"
       },
@@ -27225,11 +27699,48 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/518445284",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "Freiwillige Feuerwehr Günching",
+        "source": "DOP_LVA_BY_01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.5817301,
+              49.2628012
+            ],
+            [
+              11.5818906,
+              49.2627795
+            ],
+            [
+              11.5819229,
+              49.262881
+            ],
+            [
+              11.5817624,
+              49.2629027
+            ],
+            [
+              11.5817301,
+              49.2628012
+            ]
+          ]
+        ]
+      },
+      "id": "way/518445284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/518518515",
         "amenity": "fire_station",
         "description": "Neubau der Feuerwache 1 - BF Fürth",
-        "landuse": "construction",
-        "name": "(im Bau) Hauptfeuerwache",
+        "name": "Feuerwache",
         "operator": "Stadt Fürth"
       },
       "geometry": {
@@ -27237,16 +27748,16 @@
         "coordinates": [
           [
             [
-              10.9862448,
-              49.4839487
+              10.98623,
+              49.4839165
             ],
             [
-              10.985947,
-              49.4833409
+              10.9859054,
+              49.4832503
             ],
             [
-              10.9863632,
-              49.4831995
+              10.986331,
+              49.4831455
             ],
             [
               10.9859929,
@@ -27261,16 +27772,20 @@
               49.4827447
             ],
             [
-              10.9876936,
-              49.4832356
+              10.9875005,
+              49.4831737
             ],
             [
-              10.9878117,
-              49.4833142
+              10.9876505,
+              49.4832587
             ],
             [
-              10.9862448,
-              49.4839487
+              10.9876508,
+              49.4833595
+            ],
+            [
+              10.98623,
+              49.4839165
             ]
           ]
         ]
@@ -27290,24 +27805,24 @@
         "coordinates": [
           [
             [
-              11.516618,
-              49.3098302
+              11.5165903,
+              49.3098404
             ],
             [
-              11.5166343,
-              49.30974
+              11.5166075,
+              49.309755
             ],
             [
-              11.5168071,
-              49.3097586
+              11.516778,
+              49.3097696
             ],
             [
-              11.5167867,
-              49.3098394
+              11.5167608,
+              49.309855
             ],
             [
-              11.516618,
-              49.3098302
+              11.5165903,
+              49.3098404
             ]
           ]
         ]
@@ -27388,6 +27903,59 @@
         ]
       },
       "id": "way/520539733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/521565115",
+        "addr:city": "Neumarkt in der Oberpfalz",
+        "addr:housenumber": "27",
+        "addr:postcode": "92318",
+        "addr:street": "Schweizerstraße",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "FFW Pelchenhofen"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.5304054,
+              49.2868075
+            ],
+            [
+              11.5305094,
+              49.286761
+            ],
+            [
+              11.5306348,
+              49.2868803
+            ],
+            [
+              11.5305207,
+              49.2869313
+            ],
+            [
+              11.5304951,
+              49.2869428
+            ],
+            [
+              11.5304102,
+              49.286862
+            ],
+            [
+              11.5304459,
+              49.286846
+            ],
+            [
+              11.5304054,
+              49.2868075
+            ]
+          ]
+        ]
+      },
+      "id": "way/521565115"
     },
     {
       "type": "Feature",
@@ -27606,6 +28174,44 @@
         ]
       },
       "id": "way/527888801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530399989",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Pfeffertshofen",
+        "operator": "Gemeinde Pilsach",
+        "source": "DOP_LVA_BY_01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.5355167,
+              49.3280978
+            ],
+            [
+              11.5355963,
+              49.3280999
+            ],
+            [
+              11.5355907,
+              49.3281892
+            ],
+            [
+              11.5355111,
+              49.3281871
+            ],
+            [
+              11.5355167,
+              49.3280978
+            ]
+          ]
+        ]
+      },
+      "id": "way/530399989"
     },
     {
       "type": "Feature",
@@ -28168,44 +28774,6 @@
         ]
       },
       "id": "way/543909859"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/547770641",
-        "amenity": "fire_station",
-        "building": "yes",
-        "name": "Freiwillige Feuerwehr Neuhaus",
-        "ref": "17"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              10.875459,
-              49.68468
-            ],
-            [
-              10.8752123,
-              49.6847919
-            ],
-            [
-              10.8751129,
-              49.6847002
-            ],
-            [
-              10.8753597,
-              49.6845883
-            ],
-            [
-              10.875459,
-              49.68468
-            ]
-          ]
-        ]
-      },
-      "id": "way/547770641"
     },
     {
       "type": "Feature",
@@ -30564,55 +31132,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/617974530",
-        "amenity": "fire_station",
-        "building": "yes",
-        "name": "FFW Schillingsfürst"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              10.2616596,
-              49.2850664
-            ],
-            [
-              10.2616197,
-              49.2851783
-            ],
-            [
-              10.2616156,
-              49.2851898
-            ],
-            [
-              10.261437,
-              49.2851626
-            ],
-            [
-              10.2614411,
-              49.2851512
-            ],
-            [
-              10.2611932,
-              49.2851136
-            ],
-            [
-              10.2612332,
-              49.2850017
-            ],
-            [
-              10.2616596,
-              49.2850664
-            ]
-          ]
-        ]
-      },
-      "id": "way/617974530"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/618354556",
         "addr:city": "Wiesentheid",
         "addr:housenumber": "10",
@@ -30677,6 +31196,42 @@
         ]
       },
       "id": "way/618354556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620431886",
+        "amenity": "fire_station",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.274325,
+              49.2934253
+            ],
+            [
+              10.2743619,
+              49.2933865
+            ],
+            [
+              10.2744571,
+              49.293425
+            ],
+            [
+              10.2744202,
+              49.2934638
+            ],
+            [
+              10.274325,
+              49.2934253
+            ]
+          ]
+        ]
+      },
+      "id": "way/620431886"
     },
     {
       "type": "Feature",
@@ -31169,6 +31724,42 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/637971412",
+        "amenity": "fire_station",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.6126084,
+              49.2227122
+            ],
+            [
+              10.6125478,
+              49.2226482
+            ],
+            [
+              10.6126296,
+              49.2226152
+            ],
+            [
+              10.6126901,
+              49.2226793
+            ],
+            [
+              10.6126084,
+              49.2227122
+            ]
+          ]
+        ]
+      },
+      "id": "way/637971412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/638187816",
         "addr:city": "Hüttenbach",
         "addr:housenumber": "5",
@@ -31206,6 +31797,43 @@
         ]
       },
       "id": "way/638187816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/639048231",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Freiwillige Feuerwehr Leuzenbronn"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.130108,
+              49.3738212
+            ],
+            [
+              10.1301509,
+              49.373699
+            ],
+            [
+              10.1302309,
+              49.3737109
+            ],
+            [
+              10.130188,
+              49.3738331
+            ],
+            [
+              10.130108,
+              49.3738212
+            ]
+          ]
+        ]
+      },
+      "id": "way/639048231"
     },
     {
       "type": "Feature",
@@ -31296,6 +31924,43 @@
         ]
       },
       "id": "way/650256619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/650568827",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Freiwillige Feuerwehr Adelshofen"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.1721463,
+              49.4389945
+            ],
+            [
+              10.172306,
+              49.4390194
+            ],
+            [
+              10.172275,
+              49.4391035
+            ],
+            [
+              10.1721152,
+              49.4390786
+            ],
+            [
+              10.1721463,
+              49.4389945
+            ]
+          ]
+        ]
+      },
+      "id": "way/650568827"
     },
     {
       "type": "Feature",
@@ -31587,10 +32252,15 @@
       "type": "Feature",
       "properties": {
         "@id": "way/671537195",
+        "addr:city": "Leutershausen",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "91578",
+        "addr:street": "Bucher Straße",
         "amenity": "fire_station",
         "building": "yes",
-        "name": "FFW Jochsberg",
-        "website": "https://www.feuerwehr-jochsberg.de"
+        "contact:website": "https://www.facebook.com/Feuerwehr-Jochsberg-617946171958540",
+        "name": "Freiwillige Feuerwehr Jochsberg"
       },
       "geometry": {
         "type": "Polygon",
@@ -31956,6 +32626,59 @@
         ]
       },
       "id": "way/678629425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/679236805",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Freiwillige Feuerwehr Reichelshofen"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.2088591,
+              49.4392529
+            ],
+            [
+              10.2088704,
+              49.4391801
+            ],
+            [
+              10.2089126,
+              49.4391828
+            ],
+            [
+              10.2088952,
+              49.4392945
+            ],
+            [
+              10.208853,
+              49.4392917
+            ],
+            [
+              10.2088541,
+              49.4392845
+            ],
+            [
+              10.2088067,
+              49.4392814
+            ],
+            [
+              10.2088116,
+              49.4392498
+            ],
+            [
+              10.2088591,
+              49.4392529
+            ]
+          ]
+        ]
+      },
+      "id": "way/679236805"
     },
     {
       "type": "Feature",
@@ -32743,6 +33466,47 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/695579114",
+        "addr:city": "Geiselwind",
+        "addr:housenumber": "4",
+        "addr:postcode": "96160",
+        "addr:street": "Dürrnbucher Straße",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "FF Rehweiler"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4330964,
+              49.7636113
+            ],
+            [
+              10.4331104,
+              49.763679
+            ],
+            [
+              10.432999,
+              49.7637127
+            ],
+            [
+              10.4329562,
+              49.7636537
+            ],
+            [
+              10.4330964,
+              49.7636113
+            ]
+          ]
+        ]
+      },
+      "id": "way/695579114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/695947757",
         "amenity": "fire_station",
         "building": "yes",
@@ -33424,8 +34188,13 @@
       "type": "Feature",
       "properties": {
         "@id": "way/712675811",
+        "addr:city": "Güntersleben",
+        "addr:housenumber": "30",
+        "addr:postcode": "97261",
+        "addr:street": "Gartenstraße",
         "amenity": "fire_station",
-        "building": "yes"
+        "building": "yes",
+        "name": "Freiwillige Feuerwehr Güntersleben"
       },
       "geometry": {
         "type": "Polygon",
@@ -33550,24 +34319,24 @@
         "coordinates": [
           [
             [
-              10.1796591,
-              49.6966283
+              10.1796894,
+              49.69663
             ],
             [
-              10.1797586,
-              49.6966993
+              10.1797889,
+              49.696701
             ],
             [
-              10.1795883,
-              49.6967991
+              10.1796186,
+              49.6968008
             ],
             [
-              10.1794888,
-              49.696728
+              10.1795191,
+              49.6967297
             ],
             [
-              10.1796591,
-              49.6966283
+              10.1796894,
+              49.69663
             ]
           ]
         ]
@@ -34084,9 +34853,14 @@
       "type": "Feature",
       "properties": {
         "@id": "way/733524929",
+        "addr:city": "Feuchtwangen",
+        "addr:country": "DE",
+        "addr:housenumber": "62",
+        "addr:postcode": "91555",
+        "addr:street": "Dorfgütingen",
         "amenity": "fire_station",
         "building": "yes",
-        "website": "https://www.feuerwehr-dorfguetingen.de/"
+        "website": "https://www.facebook.com/ffwdorfguetingen/"
       },
       "geometry": {
         "type": "Polygon",
@@ -34697,6 +35471,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/758969728",
+        "addr:city": "Leinburg",
+        "addr:housenumber": "5",
+        "addr:postcode": "91227",
+        "addr:street": "Ernhofer Straße",
         "amenity": "fire_station",
         "building": "fire_station",
         "name": "Freiwillige Feuerwehr Weißenbrunn",
@@ -36416,48 +37194,60 @@
         "coordinates": [
           [
             [
-              11.4994277,
-              49.273211
+              11.4994255,
+              49.2732095
             ],
             [
-              11.4994726,
-              49.2732099
+              11.4994707,
+              49.2732087
             ],
             [
-              11.4994695,
-              49.2731543
+              11.4994681,
+              49.2731408
             ],
             [
-              11.4997711,
-              49.2731472
+              11.4995734,
+              49.273139
             ],
             [
-              11.4997694,
-              49.2731167
+              11.4996332,
+              49.273138
             ],
             [
-              11.4998682,
-              49.2731144
+              11.4996895,
+              49.2731371
             ],
             [
-              11.4998758,
-              49.2732504
+              11.499769,
+              49.2731358
             ],
             [
-              11.4997723,
-              49.2732529
+              11.4997683,
+              49.273116
             ],
             [
-              11.4997744,
-              49.2732915
+              11.4998683,
+              49.2731143
             ],
             [
-              11.4994326,
-              49.2732996
+              11.4998738,
+              49.2732538
             ],
             [
-              11.4994277,
-              49.273211
+              11.4997686,
+              49.2732556
+            ],
+            [
+              11.4997697,
+              49.2732817
+            ],
+            [
+              11.4994285,
+              49.2732874
+            ],
+            [
+              11.4994255,
+              49.2732095
             ]
           ]
         ]
@@ -36639,8 +37429,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/888871632",
-        "addr:city": "Gerolshausen",
-        "addr:housenumber": "1",
+        "addr:city": "Moos",
+        "addr:housenumber": "3",
         "addr:postcode": "97256",
         "addr:street": "Am Herrnfeld",
         "amenity": "fire_station",
@@ -36735,6 +37525,50 @@
         ]
       },
       "id": "way/902010320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/907822415",
+        "addr:city": "Neumarkt in der Oberpfalz",
+        "addr:housenumber": "1",
+        "addr:postcode": "92318",
+        "addr:street": "Mittelbergweg",
+        "amenity": "fire_station",
+        "building": "fire_station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.5484734,
+              49.2808665
+            ],
+            [
+              11.5484975,
+              49.2809064
+            ],
+            [
+              11.5485312,
+              49.2809591
+            ],
+            [
+              11.5484306,
+              49.2809857
+            ],
+            [
+              11.5483737,
+              49.280892
+            ],
+            [
+              11.5484734,
+              49.2808665
+            ]
+          ]
+        ]
+      },
+      "id": "way/907822415"
     },
     {
       "type": "Feature",
@@ -36952,7 +37786,7 @@
         "addr:street": "Ligusterweg",
         "amenity": "fire_station",
         "building": "yes",
-        "name": "FFW Unterfarrnbach"
+        "name": "Freiwillige Feuerwehr Unterfarrnbach"
       },
       "geometry": {
         "type": "Polygon",
@@ -37063,7 +37897,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/963611432",
-        "amenity": "fire_station"
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Weilersbach"
       },
       "geometry": {
         "type": "Polygon",
@@ -37346,32 +38181,64 @@
         "coordinates": [
           [
             [
-              11.5805548,
-              49.9142056
+              11.5805485,
+              49.9141979
             ],
             [
-              11.5807826,
-              49.9139367
+              11.5807964,
+              49.9139365
             ],
             [
-              11.5810243,
-              49.9140216
+              11.5808995,
+              49.9139771
             ],
             [
-              11.5807965,
-              49.9142905
+              11.5810325,
+              49.9140294
             ],
             [
-              11.5807533,
-              49.9142753
+              11.5809915,
+              49.9140726
             ],
             [
-              11.5806084,
-              49.9142244
+              11.5809546,
+              49.9141115
             ],
             [
-              11.5805548,
-              49.9142056
+              11.58092,
+              49.914148
+            ],
+            [
+              11.5808888,
+              49.9141809
+            ],
+            [
+              11.580855,
+              49.9142166
+            ],
+            [
+              11.5808266,
+              49.9142466
+            ],
+            [
+              11.580809,
+              49.9142652
+            ],
+            [
+              11.5807847,
+              49.9142908
+            ],
+            [
+              11.5807536,
+              49.9142786
+            ],
+            [
+              11.5806122,
+              49.914223
+            ],
+            [
+              11.5805485,
+              49.9141979
             ]
           ]
         ]
@@ -37381,78 +38248,1117 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/615502376",
-        "@relations": [
-          {
-            "role": "outline",
-            "rel": 5668374,
-            "reltags": {
-              "amenity": "fire_station",
-              "area": "yes",
-              "name": "Staatl. Feuerwehrschule Würzburg",
-              "type": "site"
-            }
-          }
-        ]
+        "@id": "way/1077982597",
+        "amenity": "fire_station",
+        "building": "yes"
       },
       "geometry": {
-        "type": "LineString",
+        "type": "Polygon",
         "coordinates": [
           [
-            9.9032146,
-            49.798445
-          ],
-          [
-            9.9034195,
-            49.7982308
-          ],
-          [
-            9.9031274,
-            49.7981923
-          ],
-          [
-            9.9030565,
-            49.7981833
-          ],
-          [
-            9.9030434,
-            49.7982247
-          ],
-          [
-            9.9030519,
-            49.7982271
-          ],
-          [
-            9.9030365,
-            49.7982791
-          ],
-          [
-            9.9030293,
-            49.7983035
-          ],
-          [
-            9.90302,
-            49.7983177
-          ],
-          [
-            9.9030045,
-            49.7983298
-          ],
-          [
-            9.9029818,
-            49.7983383
-          ],
-          [
-            9.9029538,
-            49.7983433
-          ],
-          [
-            9.9032146,
-            49.798445
+            [
+              10.6353793,
+              49.2189067
+            ],
+            [
+              10.6355324,
+              49.2189404
+            ],
+            [
+              10.6354807,
+              49.2190313
+            ],
+            [
+              10.6353173,
+              49.2190161
+            ],
+            [
+              10.6353793,
+              49.2189067
+            ]
           ]
         ]
       },
-      "id": "way/615502376"
+      "id": "way/1077982597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1077982598",
+        "amenity": "fire_station",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.6251174,
+              49.2306823
+            ],
+            [
+              10.6252154,
+              49.2305754
+            ],
+            [
+              10.625408,
+              49.2306508
+            ],
+            [
+              10.62531,
+              49.2307576
+            ],
+            [
+              10.6251174,
+              49.2306823
+            ]
+          ]
+        ]
+      },
+      "id": "way/1077982598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1080511731",
+        "addr:housenumber": "5",
+        "amenity": "fire_station",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.5231407,
+              49.7819415
+            ],
+            [
+              10.5231631,
+              49.7818967
+            ],
+            [
+              10.523283,
+              49.7819208
+            ],
+            [
+              10.5232624,
+              49.7819619
+            ],
+            [
+              10.5231407,
+              49.7819415
+            ]
+          ]
+        ]
+      },
+      "id": "way/1080511731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1081687438",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Freiwillige Feuerwehr Gattenhofen"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.2001243,
+              49.4175732
+            ],
+            [
+              10.2002662,
+              49.4176031
+            ],
+            [
+              10.200227,
+              49.4176737
+            ],
+            [
+              10.2000783,
+              49.4176495
+            ],
+            [
+              10.2001243,
+              49.4175732
+            ]
+          ]
+        ]
+      },
+      "id": "way/1081687438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1086540111",
+        "amenity": "fire_station",
+        "area": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.2035544,
+              49.5755571
+            ],
+            [
+              11.203977,
+              49.5755126
+            ],
+            [
+              11.2040017,
+              49.5756002
+            ],
+            [
+              11.2039528,
+              49.5757432
+            ],
+            [
+              11.2040235,
+              49.575753
+            ],
+            [
+              11.2040197,
+              49.5757644
+            ],
+            [
+              11.2040541,
+              49.5757692
+            ],
+            [
+              11.2040259,
+              49.5759301
+            ],
+            [
+              11.2035893,
+              49.5758636
+            ],
+            [
+              11.2035544,
+              49.5755571
+            ]
+          ]
+        ]
+      },
+      "id": "way/1086540111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1092272377",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "FFW Bimbach"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.3793751,
+              49.8617631
+            ],
+            [
+              10.3794248,
+              49.8617392
+            ],
+            [
+              10.3794904,
+              49.8617077
+            ],
+            [
+              10.3795222,
+              49.8617353
+            ],
+            [
+              10.3795558,
+              49.8617644
+            ],
+            [
+              10.3795703,
+              49.8617769
+            ],
+            [
+              10.3794549,
+              49.8618322
+            ],
+            [
+              10.3793965,
+              49.8617816
+            ],
+            [
+              10.3793751,
+              49.8617631
+            ]
+          ]
+        ]
+      },
+      "id": "way/1092272377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1092824336",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "FFW Frankenwinheim",
+        "operator": "Gemeinde Frankenwinheim"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.3165741,
+              49.8883843
+            ],
+            [
+              10.3164947,
+              49.8883152
+            ],
+            [
+              10.3166128,
+              49.8882588
+            ],
+            [
+              10.3167161,
+              49.8883487
+            ],
+            [
+              10.3165816,
+              49.8884128
+            ],
+            [
+              10.3165577,
+              49.8883921
+            ],
+            [
+              10.3165741,
+              49.8883843
+            ]
+          ]
+        ]
+      },
+      "id": "way/1092824336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1093575987",
+        "addr:city": "Schwarzach am Main",
+        "addr:country": "DE",
+        "addr:housenumber": "34",
+        "addr:postcode": "97359",
+        "addr:street": "Kitzinger Straße",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "FFW Hörblach"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.2164604,
+              49.7902848
+            ],
+            [
+              10.2163592,
+              49.7902257
+            ],
+            [
+              10.2164014,
+              49.7901956
+            ],
+            [
+              10.2164164,
+              49.7902044
+            ],
+            [
+              10.2165137,
+              49.7901349
+            ],
+            [
+              10.2165999,
+              49.7901852
+            ],
+            [
+              10.2164604,
+              49.7902848
+            ]
+          ]
+        ]
+      },
+      "id": "way/1093575987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1097337672",
+        "amenity": "fire_station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0368805,
+              49.6452807
+            ],
+            [
+              11.0365458,
+              49.6451319
+            ],
+            [
+              11.0368217,
+              49.6449325
+            ],
+            [
+              11.037011,
+              49.6448798
+            ],
+            [
+              11.0372051,
+              49.645003
+            ],
+            [
+              11.0376676,
+              49.6453268
+            ],
+            [
+              11.0375484,
+              49.645416
+            ],
+            [
+              11.0371809,
+              49.6453048
+            ],
+            [
+              11.0368805,
+              49.6452807
+            ]
+          ]
+        ]
+      },
+      "id": "way/1097337672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1097375547",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "FFW Kürnach"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.0459199,
+              49.8437121
+            ],
+            [
+              10.0459276,
+              49.8436607
+            ],
+            [
+              10.0460355,
+              49.8436674
+            ],
+            [
+              10.0460314,
+              49.8436952
+            ],
+            [
+              10.0461009,
+              49.8436995
+            ],
+            [
+              10.0460473,
+              49.8440586
+            ],
+            [
+              10.04601,
+              49.8440851
+            ],
+            [
+              10.045994,
+              49.8440841
+            ],
+            [
+              10.0460175,
+              49.8439268
+            ],
+            [
+              10.0458652,
+              49.8439174
+            ],
+            [
+              10.045896,
+              49.8437107
+            ],
+            [
+              10.0459199,
+              49.8437121
+            ]
+          ]
+        ]
+      },
+      "id": "way/1097375547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1098173343",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Baiersdorf",
+        "ref:": "70"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.029579,
+              49.6573964
+            ],
+            [
+              11.0289338,
+              49.6579537
+            ],
+            [
+              11.0288593,
+              49.6579639
+            ],
+            [
+              11.0284858,
+              49.6576359
+            ],
+            [
+              11.029015,
+              49.6572331
+            ],
+            [
+              11.0291684,
+              49.657333
+            ],
+            [
+              11.0292867,
+              49.6572568
+            ],
+            [
+              11.0293166,
+              49.6572361
+            ],
+            [
+              11.029579,
+              49.6573964
+            ]
+          ]
+        ]
+      },
+      "id": "way/1098173343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1098174465",
+        "amenity": "fire_station",
+        "name": "FFW Wellerstadt"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0365418,
+              49.6680913
+            ],
+            [
+              11.0366155,
+              49.667957
+            ],
+            [
+              11.0366999,
+              49.6679517
+            ],
+            [
+              11.0369123,
+              49.6679116
+            ],
+            [
+              11.0369989,
+              49.6679089
+            ],
+            [
+              11.0372564,
+              49.6679187
+            ],
+            [
+              11.0373229,
+              49.6679365
+            ],
+            [
+              11.0373046,
+              49.6680434
+            ],
+            [
+              11.0371639,
+              49.6680612
+            ],
+            [
+              11.0370372,
+              49.668119
+            ],
+            [
+              11.0370699,
+              49.6681499
+            ],
+            [
+              11.0369269,
+              49.6682181
+            ],
+            [
+              11.0368827,
+              49.6682338
+            ],
+            [
+              11.0368768,
+              49.6682364
+            ],
+            [
+              11.0368534,
+              49.6682401
+            ],
+            [
+              11.0368242,
+              49.6682274
+            ],
+            [
+              11.0365418,
+              49.6680913
+            ]
+          ]
+        ]
+      },
+      "id": "way/1098174465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1098743376",
+        "amenity": "fire_station",
+        "name": "FFW Seukendorf"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.8781656,
+              49.4858343
+            ],
+            [
+              10.8782502,
+              49.48556
+            ],
+            [
+              10.8785432,
+              49.4855693
+            ],
+            [
+              10.8785424,
+              49.4856266
+            ],
+            [
+              10.8786319,
+              49.4856296
+            ],
+            [
+              10.8786298,
+              49.4857109
+            ],
+            [
+              10.8786162,
+              49.4858587
+            ],
+            [
+              10.8781656,
+              49.4858343
+            ]
+          ]
+        ]
+      },
+      "id": "way/1098743376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113428201",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Hagenau"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.05851,
+              49.6546021
+            ],
+            [
+              11.0585521,
+              49.6541735
+            ],
+            [
+              11.058934,
+              49.654187
+            ],
+            [
+              11.0589097,
+              49.6546082
+            ],
+            [
+              11.05851,
+              49.6546021
+            ]
+          ]
+        ]
+      },
+      "id": "way/1113428201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1118122184",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Heßdorf",
+        "ref": "53"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.9044659,
+              49.6306717
+            ],
+            [
+              10.904022,
+              49.630312
+            ],
+            [
+              10.9041574,
+              49.6302469
+            ],
+            [
+              10.9046693,
+              49.6299753
+            ],
+            [
+              10.905011,
+              49.6302452
+            ],
+            [
+              10.905001,
+              49.6303016
+            ],
+            [
+              10.9045973,
+              49.6304684
+            ],
+            [
+              10.9045866,
+              49.630524
+            ],
+            [
+              10.9045517,
+              49.6305257
+            ],
+            [
+              10.9045799,
+              49.6306369
+            ],
+            [
+              10.9044659,
+              49.6306717
+            ]
+          ]
+        ]
+      },
+      "id": "way/1118122184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1123720366",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Kleinrinderfeld"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.8408808,
+              49.7005444
+            ],
+            [
+              9.8400491,
+              49.7002377
+            ],
+            [
+              9.840288,
+              49.7000328
+            ],
+            [
+              9.8411799,
+              49.700345
+            ],
+            [
+              9.8408808,
+              49.7005444
+            ]
+          ]
+        ]
+      },
+      "id": "way/1123720366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1127517422",
+        "addr:city": "Darstadt",
+        "addr:housenumber": "10",
+        "addr:street": "Schäferweg",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "Freiwilllige Feeuerwehr Darstadt",
+        "operator": "Stadt Ochsenfurt"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.9970603,
+              49.6753426
+            ],
+            [
+              9.9973795,
+              49.6752715
+            ],
+            [
+              9.9974573,
+              49.6754381
+            ],
+            [
+              9.9971327,
+              49.6755075
+            ],
+            [
+              9.9970603,
+              49.6753426
+            ]
+          ]
+        ]
+      },
+      "id": "way/1127517422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1128198214",
+        "amenity": "fire_station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.5807623,
+              49.9147568
+            ],
+            [
+              11.5802096,
+              49.914575
+            ],
+            [
+              11.5802142,
+              49.9145234
+            ],
+            [
+              11.5803734,
+              49.9137992
+            ],
+            [
+              11.5805104,
+              49.9138445
+            ],
+            [
+              11.581334,
+              49.9141164
+            ],
+            [
+              11.5807623,
+              49.9147568
+            ]
+          ]
+        ]
+      },
+      "id": "way/1128198214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1133555212",
+        "addr:city": "Schillingsfürst",
+        "addr:housenumber": "2",
+        "addr:postcode": "91583",
+        "addr:street": "Robert-Dinzl-Weg",
+        "alt_name": "Freiwillige Feuerwehr Schillingsfürst",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "Feuerwehr Schillingsfürst",
+        "short_name": "FFW Schillingsfürst"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.252325,
+              49.2804373
+            ],
+            [
+              10.2525509,
+              49.2802521
+            ],
+            [
+              10.2529564,
+              49.2804626
+            ],
+            [
+              10.2527305,
+              49.2806478
+            ],
+            [
+              10.252325,
+              49.2804373
+            ]
+          ]
+        ]
+      },
+      "id": "way/1133555212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1141362671",
+        "addr:city": "Würzburg",
+        "addr:postcode": "97080",
+        "addr:street": "Dürrbachtal",
+        "amenity": "fire_station",
+        "building": "garage",
+        "name": "Halle 9 FF Unterdürrbach",
+        "operator": "FF Unterdürrbach"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.9141864,
+              49.8086773
+            ],
+            [
+              9.9141609,
+              49.8086625
+            ],
+            [
+              9.9141334,
+              49.8086465
+            ],
+            [
+              9.9142516,
+              49.8085556
+            ],
+            [
+              9.9143129,
+              49.8085952
+            ],
+            [
+              9.9141864,
+              49.8086773
+            ]
+          ]
+        ]
+      },
+      "id": "way/1141362671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1149726106",
+        "amenity": "fire_station",
+        "name": "Feuerwehr Kersbach",
+        "website": "https://ff-kersbach.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0682679,
+              49.6839252
+            ],
+            [
+              11.0685159,
+              49.6835963
+            ],
+            [
+              11.068576,
+              49.6835713
+            ],
+            [
+              11.0686607,
+              49.6835833
+            ],
+            [
+              11.068747,
+              49.6836491
+            ],
+            [
+              11.0689596,
+              49.6838514
+            ],
+            [
+              11.0686638,
+              49.6840657
+            ],
+            [
+              11.0682679,
+              49.6839252
+            ]
+          ]
+        ]
+      },
+      "id": "way/1149726106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1149977729",
+        "amenity": "fire_station",
+        "name": "FFW Hirschaid"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.9964191,
+              49.8141931
+            ],
+            [
+              10.9959417,
+              49.8140662
+            ],
+            [
+              10.9958876,
+              49.8140503
+            ],
+            [
+              10.9959646,
+              49.8139381
+            ],
+            [
+              10.996246,
+              49.8135765
+            ],
+            [
+              10.99649,
+              49.8132367
+            ],
+            [
+              10.9965321,
+              49.8132345
+            ],
+            [
+              10.9966348,
+              49.8131787
+            ],
+            [
+              10.9968566,
+              49.8134838
+            ],
+            [
+              10.9970411,
+              49.8136804
+            ],
+            [
+              10.9969267,
+              49.8137957
+            ],
+            [
+              10.9968496,
+              49.8137693
+            ],
+            [
+              10.9964191,
+              49.8141931
+            ]
+          ]
+        ]
+      },
+      "id": "way/1149977729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1153856630",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Neuhaus",
+        "ref": "17"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.8757442,
+              49.6850015
+            ],
+            [
+              10.8756091,
+              49.6850896
+            ],
+            [
+              10.8755184,
+              49.6850895
+            ],
+            [
+              10.875025,
+              49.6847356
+            ],
+            [
+              10.8755045,
+              49.6845326
+            ],
+            [
+              10.8757442,
+              49.6850015
+            ]
+          ]
+        ]
+      },
+      "id": "way/1153856630"
     },
     {
       "type": "Feature",
@@ -37464,8 +39370,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.9998324,
-          49.3674652
+          10.9992145,
+          49.3658279
         ]
       },
       "id": "node/33169749"
@@ -37603,22 +39509,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/266293539",
-        "amenity": "fire_station",
-        "name": "Feuerwehr Pölling"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.4152045,
-          49.2950128
-        ]
-      },
-      "id": "node/266293539"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/266642908",
         "amenity": "fire_station",
         "name": "Freiwillige Feuerwehr Gustenfelden"
@@ -37636,8 +39526,13 @@
       "type": "Feature",
       "properties": {
         "@id": "node/266647121",
+        "addr:city": "Rohr",
+        "addr:housenumber": "2",
+        "addr:postcode": "91189",
+        "addr:street": "Leitelshofer Straße",
         "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Regelsbach"
+        "name": "Freiwillige Feuerwehr Regelsbach",
+        "website": "http://www.regelsbach112.de"
       },
       "geometry": {
         "type": "Point",
@@ -37962,22 +39857,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/306682754",
-        "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Hörblach"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.2169004,
-          49.7903618
-        ]
-      },
-      "id": "node/306682754"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/307710089",
         "amenity": "fire_station",
         "name": "Feuerwehr Rüsselhausen"
@@ -37995,7 +39874,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/307852806",
-        "amenity": "fire_station"
+        "amenity": "fire_station",
+        "operator": "FFW Walkersbrunn"
       },
       "geometry": {
         "type": "Point",
@@ -38022,8 +39902,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.0048948,
-          49.4108501
+          11.005214,
+          49.4108876
         ]
       },
       "id": "node/308980196"
@@ -38068,8 +39948,12 @@
       "type": "Feature",
       "properties": {
         "@id": "node/317219707",
+        "addr:city": "Leinach",
+        "addr:housenumber": "13",
+        "addr:postcode": "97274",
+        "addr:street": "Franz-Josef-Strauß-Straße",
         "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Leinach"
+        "name": "Freiwillige Feuerwehr Oberleinach"
       },
       "geometry": {
         "type": "Point",
@@ -38273,30 +40157,6 @@
         ]
       },
       "id": "node/345754331"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/352759508",
-        "addr:city": "Neumarkt",
-        "addr:housenumber": "39",
-        "addr:postcode": "92318",
-        "addr:street": "Schafhofstraße",
-        "amenity": "fire_station",
-        "email": "info@ff-labersricht.de",
-        "image": "https://www.ff-labersricht.de/wp-content/uploads/2022/03/IMG_4795.jpg",
-        "name": "Freiwillige Feuerwehr Labersricht",
-        "operator": "Stadt Neumarkt",
-        "website": "www.ff-labersricht.de"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.4874367,
-          49.2931514
-        ]
-      },
-      "id": "node/352759508"
     },
     {
       "type": "Feature",
@@ -38517,27 +40377,6 @@
         ]
       },
       "id": "node/378188254"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/380530730",
-        "addr:housenumber": "20",
-        "addr:postcode": "97261",
-        "addr:street": "Gartenstraße",
-        "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Güntersleben",
-        "phone": "+49 9365 807070",
-        "website": "http://www.feuerwehr-guentersleben.de/index.php/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.904702,
-          49.8679634
-        ]
-      },
-      "id": "node/380530730"
     },
     {
       "type": "Feature",
@@ -38934,22 +40773,6 @@
         ]
       },
       "id": "node/475727444"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/481108640",
-        "amenity": "fire_station",
-        "name": "Feuerwehrgerätehaus"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.5485467,
-          49.2809637
-        ]
-      },
-      "id": "node/481108640"
     },
     {
       "type": "Feature",
@@ -39472,29 +41295,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/685783985",
-        "addr:city": "Forchheim",
-        "addr:housenumber": "4",
-        "addr:postcode": "91301",
-        "addr:street": "Mühlhof",
-        "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Reuth",
-        "office": "government",
-        "toilets:wheelchair": "no",
-        "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.1148611,
-          49.7187993
-        ]
-      },
-      "id": "node/685783985"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/700492002",
         "amenity": "fire_station",
         "name": "Freiwillige Feuerwehr Amrichshausen"
@@ -39579,38 +41379,6 @@
         ]
       },
       "id": "node/736911091"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/748495573",
-        "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Unterpleichfeld"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.0429423,
-          49.8699528
-        ]
-      },
-      "id": "node/748495573"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/766866496",
-        "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Günching"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.5818276,
-          49.2628029
-        ]
-      },
-      "id": "node/766866496"
     },
     {
       "type": "Feature",
@@ -39987,22 +41755,6 @@
         ]
       },
       "id": "node/982717862"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/998143949",
-        "amenity": "fire_station",
-        "name": "Feuerwehr Cadolzburg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.8560217,
-          49.4597894
-        ]
-      },
-      "id": "node/998143949"
     },
     {
       "type": "Feature",
@@ -40452,55 +42204,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/1438775877",
-        "amenity": "fire_station",
-        "name": "Feuerwehrhaus"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.43453,
-          49.2673713
-        ]
-      },
-      "id": "node/1438775877"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1439592584",
-        "amenity": "fire_station",
-        "operator": "FF Rittershof"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.4085122,
-          49.2832333
-        ]
-      },
-      "id": "node/1439592584"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1446953303",
-        "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Frankenwinheim",
-        "operator": "Gemeinde Frankenwinheim"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.3166587,
-          49.8883131
-        ]
-      },
-      "id": "node/1446953303"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/1453974731",
         "amenity": "fire_station",
         "name": "Freiwillige Feuerwehr Eckental/Unterschöllenbach"
@@ -40568,7 +42271,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1524603941",
-        "amenity": "fire_station"
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Heuchling"
       },
       "geometry": {
         "type": "Point",
@@ -40703,24 +42407,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/1621591409",
-        "amenity": "fire_station",
-        "inscription": "FFW.-Schauerberg",
-        "name": "Freiwillige Feuerwehr Neuschauerberg",
-        "note": "Schreibweise wie am Gebäude"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.7001753,
-          49.5356603
-        ]
-      },
-      "id": "node/1621591409"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/1621629004",
         "amenity": "fire_station"
       },
@@ -40825,24 +42511,10 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/1636767025",
-        "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Heßdorf",
-        "ref": "53"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.9045305,
-          49.6303474
-        ]
-      },
-      "id": "node/1636767025"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/1641945971",
+        "addr:city": "Buckenhof",
+        "addr:country": "DE",
+        "addr:housenumber": "4a",
         "addr:postcode": "91054",
         "addr:street": "Eisenstraße",
         "amenity": "fire_station",
@@ -41079,6 +42751,29 @@
         ]
       },
       "id": "node/1825587339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1832156470",
+        "addr:city": "Wiesenthau",
+        "addr:housenumber": "18",
+        "addr:postcode": "91369",
+        "addr:street": "Hauptstraße",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Wiesenthau e.V.",
+        "toilets:wheelchair": "no",
+        "website": "http://www.ffw-wiesenthau.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1354109,
+          49.7132768
+        ]
+      },
+      "id": "node/1832156470"
     },
     {
       "type": "Feature",
@@ -41936,21 +43631,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3166825600",
-        "amenity": "fire_station"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.6300036,
-          49.4897246
-        ]
-      },
-      "id": "node/3166825600"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3166827915",
         "amenity": "fire_station"
       },
@@ -42047,29 +43727,31 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3377652567",
-        "addr:city": "Pottenstein",
+        "@id": "node/3327014157",
+        "addr:city": "Pinzberg",
         "addr:country": "DE",
-        "addr:housenumber": "33",
-        "addr:place": "Püttlach",
-        "addr:postcode": "91278",
-        "addr:suburb": "Püttlach",
-        "amenity": "fire_station"
+        "addr:housenumber": "12",
+        "addr:place": "Dobenreuth",
+        "addr:postcode": "91361",
+        "addr:street": "Dobenreuther Straße",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Dobenreuth"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.4689849,
-          49.8036872
+          11.1301043,
+          49.6965188
         ]
       },
-      "id": "node/3377652567"
+      "id": "node/3327014157"
     },
     {
       "type": "Feature",
       "properties": {
         "@id": "node/3391595161",
-        "amenity": "fire_station"
+        "amenity": "fire_station",
+        "name": "Feuerwehrhaus"
       },
       "geometry": {
         "type": "Point",
@@ -42220,22 +43902,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3486552901",
-        "amenity": "fire_station",
-        "name": "Feuerwehrgerätehaus"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.5305578,
-          49.286845
-        ]
-      },
-      "id": "node/3486552901"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3493448747",
         "amenity": "fire_station",
         "building": "yes"
@@ -42320,7 +43986,8 @@
         "addr:postcode": "91338",
         "addr:street": "Bürgermeister-Zeiß-Platz",
         "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Igensdorf"
+        "name": "Freiwillige Feuerwehr Igensdorf",
+        "website": "http://www.ff-igensdorf.de/"
       },
       "geometry": {
         "type": "Point",
@@ -42362,22 +44029,6 @@
         ]
       },
       "id": "node/3737051598"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3737086732",
-        "amenity": "fire_station",
-        "name": "Neuenbürg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.8730731,
-          49.6371117
-        ]
-      },
-      "id": "node/3737086732"
     },
     {
       "type": "Feature",
@@ -42503,8 +44154,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.7775275,
-          49.6727851
+          10.7776338,
+          49.6727913
         ]
       },
       "id": "node/3803813639"
@@ -42807,22 +44458,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4001325239",
-        "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Darstadt"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9964733,
-          49.6751317
-        ]
-      },
-      "id": "node/4001325239"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4001350206",
         "amenity": "fire_station",
         "name": "Freiwillige Feuerwehr Erlach"
@@ -43053,7 +44688,8 @@
       "properties": {
         "@id": "node/4323019270",
         "amenity": "fire_station",
-        "fixme": "location?"
+        "fixme": "location?",
+        "name:signed": "no"
       },
       "geometry": {
         "type": "Point",
@@ -43678,6 +45314,26 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5981402692",
+        "addr:housenumber": "19",
+        "addr:street": "Würzburger Straße",
+        "amenity": "fire_station",
+        "name": "Feuerwehr Nürnberg - Boxdorf",
+        "operator": "Stadt Nürnberg",
+        "website": "https://www.feuerwehrboxdorf.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0232995,
+          49.5215669
+        ]
+      },
+      "id": "node/5981402692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/6139573005",
         "amenity": "fire_station",
         "name": "Freiwillige Feuerwehr Hartenstein"
@@ -43852,7 +45508,7 @@
         "amenity": "fire_station",
         "contact:email": "loeschzug3@feuerwehr-wuerzburg.org",
         "contact:phone": "+49 931 83440",
-        "contact:website": "www.feuerwehr-wuerzburg.org",
+        "contact:website": "https://www.feuerwehr-wuerzburg.org",
         "description:de": "Ausbildung jeden zweiten Montag im Monat von 20:00-22:00 Uhr",
         "name": "Freiwillige Feuerwehr Stadt Würzburg - Löschzug 3",
         "source": "bing"
@@ -44122,13 +45778,14 @@
         "@id": "node/7913723797",
         "addr:street": "Hauptstraße",
         "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Weißenohe"
+        "name": "Freiwillige Feuerwehr Weißenohe",
+        "website": "http://www.feuerwehr-weissenohe.de/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.2547336,
-          49.6300075
+          11.2548093,
+          49.6299917
         ]
       },
       "id": "node/7913723797"
@@ -44337,22 +45994,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/8401883026",
-        "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Güntersleben"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9049516,
-          49.8677365
-        ]
-      },
-      "id": "node/8401883026"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/8464350022",
         "amenity": "fire_station",
         "name": "Feuerwehr Karbach"
@@ -44541,25 +46182,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/9779765981",
-        "addr:city": "Clarsbach",
-        "addr:postcode": "90574",
-        "addr:street": "Brünster Straße",
-        "amenity": "fire_station",
-        "name": "Freiwillige Feuerwehr Clarsbach"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.8544371,
-          49.3836867
-        ]
-      },
-      "id": "node/9779765981"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/9779782628",
         "addr:city": "Buchschwabach",
         "addr:housenumber": "2",
@@ -44576,6 +46198,158 @@
         ]
       },
       "id": "node/9779782628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9864191541",
+        "amenity": "fire_station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3306634,
+          49.2406426
+        ]
+      },
+      "id": "node/9864191541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10108580394",
+        "addr:city": "Erlangen",
+        "addr:housenumber": "4",
+        "addr:postcode": "91056",
+        "addr:street": "Gaisbühlstraße",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Frauenaurach",
+        "website": "https://www.feuerwehr-frauenaurach.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9612002,
+          49.5695781
+        ]
+      },
+      "id": "node/10108580394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10172019293",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Sontheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4264395,
+          49.4625435
+        ]
+      },
+      "id": "node/10172019293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10238079217",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Krettenbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4181591,
+          49.716134
+        ]
+      },
+      "id": "node/10238079217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10238792413",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Herpersdorf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.443433,
+          49.695699
+        ]
+      },
+      "id": "node/10238792413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10690255813",
+        "addr:city": "Tuchenbach",
+        "addr:housenumber": "2",
+        "addr:postcode": "90587",
+        "addr:street": "Schulplatz",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Tuchenbach",
+        "operator": "Freiwillige Feuerwehr Tuchenbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8600656,
+          49.5305048
+        ]
+      },
+      "id": "node/10690255813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10740695796",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Gerlachshausen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2262312,
+          49.8121977
+        ]
+      },
+      "id": "node/10740695796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10784589770",
+        "amenity": "fire_station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1901786,
+          49.2393602
+        ]
+      },
+      "id": "node/10784589770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10809047027",
+        "amenity": "fire_station",
+        "name": "Freiwillige Feuerwehr Neusetz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.146459,
+          49.8402075
+        ]
+      },
+      "id": "node/10809047027"
     }
   ]
 }

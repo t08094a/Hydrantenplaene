@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2022-06-12T15:15:25Z",
+  "timestamp": "2023-04-19T17:03:54Z",
   "features": [
     {
       "type": "Feature",
@@ -186,8 +186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.3357828,
-          49.3236888
+          10.3358224,
+          49.32367
         ]
       },
       "id": "node/1046343816"
@@ -302,6 +302,22 @@
         ]
       },
       "id": "node/2582758463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603300099",
+        "emergency": "suction_point",
+        "name": "fliessender Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5226385,
+          49.4728877
+        ]
+      },
+      "id": "node/2603300099"
     },
     {
       "type": "Feature",
@@ -558,6 +574,22 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/3500770049",
+        "emergency": "suction_point",
+        "name": "fliessender Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5272278,
+          49.4695586
+        ]
+      },
+      "id": "node/3500770049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/3577378764",
         "emergency": "suction_point",
         "note": "Zugang zu Weiher mit TS 8/8 gut zugänglich "
@@ -665,6 +697,21 @@
         ]
       },
       "id": "node/3578160743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3662381832",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5093258,
+          49.5421233
+        ]
+      },
+      "id": "node/3662381832"
     },
     {
       "type": "Feature",
@@ -1127,6 +1174,37 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5126353818",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1147371,
+          49.3465108
+        ]
+      },
+      "id": "node/5126353818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5184294099",
+        "emergency": "suction_point",
+        "name": "Saustelle Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4661954,
+          49.4989444
+        ]
+      },
+      "id": "node/5184294099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5330137432",
         "emergency": "suction_point"
       },
@@ -1194,7 +1272,8 @@
         "@id": "node/5547660126",
         "description": "Klärbecken",
         "emergency": "suction_point",
-        "survey:date": "2018-04-12"
+        "survey:date": "2018-04-12",
+        "water_tank:volume": "850000"
       },
       "geometry": {
         "type": "Point",
@@ -1261,8 +1340,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.330866,
-          49.3328501
+          10.3309036,
+          49.3328333
         ]
       },
       "id": "node/5798274656"
@@ -1574,6 +1653,21 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/6153007917",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5107,
+          49.5421835
+        ]
+      },
+      "id": "node/6153007917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/6228998025",
         "emergency": "suction_point"
       },
@@ -1740,6 +1834,7 @@
       "properties": {
         "@id": "node/6421196341",
         "emergency": "suction_point",
+        "natural": "water",
         "water_source": "pond"
       },
       "geometry": {
@@ -1777,8 +1872,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.4726911,
-          49.5269962
+          10.472702,
+          49.5270063
         ]
       },
       "id": "node/6421196343"
@@ -1820,13 +1915,14 @@
       "properties": {
         "@id": "node/6421196346",
         "emergency": "suction_point",
+        "water": "river",
         "water_source": "river"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           10.4810377,
-          49.5304911
+          49.5305164
         ]
       },
       "id": "node/6421196346"
@@ -2016,6 +2112,21 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/6769049469",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.934237,
+          49.2486895
+        ]
+      },
+      "id": "node/6769049469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/6776150769",
         "emergency": "suction_point",
         "survey:date": "2019-09-06"
@@ -2138,21 +2249,6 @@
         ]
       },
       "id": "node/6788659444"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6788659445",
-        "emergency": "suction_point"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.4771187,
-          49.5269157
-        ]
-      },
-      "id": "node/6788659445"
     },
     {
       "type": "Feature",
@@ -2781,6 +2877,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7637704394",
+        "description": "500m3",
         "emergency": "suction_point",
         "name": "Löschteich Fa. Fritz",
         "survey:date": "2020-06-20"
@@ -2806,8 +2903,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.357902,
-          49.2338346
+          10.3580022,
+          49.2340069
         ]
       },
       "id": "node/7639652245"
@@ -2823,8 +2920,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.3654128,
-          49.2384662
+          10.3648635,
+          49.2385391
         ]
       },
       "id": "node/7639710710"
@@ -3913,36 +4010,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/9021002437",
-        "emergency": "suction_point"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.510699,
-          49.5421859
-        ]
-      },
-      "id": "node/9021002437"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9021005989",
-        "emergency": "suction_point"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.5093258,
-          49.5421233
-        ]
-      },
-      "id": "node/9021005989"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/9021007058",
         "emergency": "suction_point"
       },
@@ -4257,23 +4324,6 @@
         ]
       },
       "id": "node/9140961865"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9235911333",
-        "description": "Swimmingpool",
-        "emergency": "suction_point",
-        "survey:date": "2021-11-08"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9493639,
-          49.6098005
-        ]
-      },
-      "id": "node/9235911333"
     },
     {
       "type": "Feature",
@@ -4801,6 +4851,1427 @@
         ]
       },
       "id": "node/9796364053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9815059983",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8564422,
+          49.6540002
+        ]
+      },
+      "id": "node/9815059983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9820729528",
+        "description": "Zufahrten über Schotterweg",
+        "emergency": "suction_point",
+        "name": "Weiher",
+        "survey:date": "2022-06-15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3675805,
+          49.2222986
+        ]
+      },
+      "id": "node/9820729528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9820773909",
+        "emergency": "suction_point",
+        "survey:date": "2022-06-15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.375537,
+          49.2374954
+        ]
+      },
+      "id": "node/9820773909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9821831792",
+        "description": "Aufstellfläche TS",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4895309,
+          49.5068822
+        ]
+      },
+      "id": "node/9821831792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9821919738",
+        "description": "Aufstellfläche TS",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4811404,
+          49.509187
+        ]
+      },
+      "id": "node/9821919738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9821920354",
+        "description": "Rohrdurchpressung 1xB",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4809387,
+          49.509253
+        ]
+      },
+      "id": "node/9821920354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9822268770",
+        "emergency": "suction_point",
+        "name": "Weiher",
+        "survey:date": "2022-06-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.34592,
+          49.2309123
+        ]
+      },
+      "id": "node/9822268770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9822270120",
+        "description": "Anfahrt über Schotterweg",
+        "emergency": "suction_point",
+        "name": "Weiher",
+        "survey:date": "2022-06-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3843712,
+          49.234203
+        ]
+      },
+      "id": "node/9822270120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9822272652",
+        "emergency": "suction_point",
+        "survey:date": "2022-06-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3928006,
+          49.2187343
+        ]
+      },
+      "id": "node/9822272652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9822289482",
+        "emergency": "suction_point",
+        "name": "Weiher",
+        "survey:date": "2022-06-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.345999,
+          49.2309085
+        ]
+      },
+      "id": "node/9822289482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9822291546",
+        "emergency": "suction_point",
+        "name": "Weiher",
+        "survey:date": "2022-06-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3451212,
+          49.2321517
+        ]
+      },
+      "id": "node/9822291546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9831718559",
+        "emergency": "suction_point",
+        "name": "Weiher",
+        "survey:date": "2022-06-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3845982,
+          49.2341299
+        ]
+      },
+      "id": "node/9831718559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9837645110",
+        "description": "Weiher ",
+        "emergency": "suction_point",
+        "survey:date": "2022-06-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3826975,
+          49.2165058
+        ]
+      },
+      "id": "node/9837645110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9837656669",
+        "description": "Weiher ",
+        "emergency": "suction_point",
+        "survey:date": "2022-06-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3793081,
+          49.2154103
+        ]
+      },
+      "id": "node/9837656669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9837664240",
+        "description": "Weiher ",
+        "emergency": "suction_point",
+        "survey:date": "2022-06-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.372708,
+          49.2115527
+        ]
+      },
+      "id": "node/9837664240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9837668977",
+        "description": "Weiher ",
+        "emergency": "suction_point",
+        "survey:date": "2022-06-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3829042,
+          49.2163879
+        ]
+      },
+      "id": "node/9837668977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9837672535",
+        "description": "Weiher ",
+        "emergency": "suction_point",
+        "survey:date": "2022-06-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3824746,
+          49.2163353
+        ]
+      },
+      "id": "node/9837672535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9839586467",
+        "emergency": "suction_point",
+        "name": "Weiher",
+        "survey:date": "2022-06-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3690962,
+          49.2199008
+        ]
+      },
+      "id": "node/9839586467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9839594113",
+        "emergency": "suction_point",
+        "name": "Weiher",
+        "survey:date": "2022-06-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3706246,
+          49.2203677
+        ]
+      },
+      "id": "node/9839594113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9839624826",
+        "emergency": "suction_point",
+        "name": "See"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9973883,
+          49.3526839
+        ]
+      },
+      "id": "node/9839624826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9839624827",
+        "emergency": "suction_point",
+        "name": "See bei Obereichenrot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0498031,
+          49.3641595
+        ]
+      },
+      "id": "node/9839624827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9839624828",
+        "emergency": "suction_point",
+        "name": "Eisweiher Spielbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0710144,
+          49.3789254
+        ]
+      },
+      "id": "node/9839624828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9839624830",
+        "emergency": "suction_point",
+        "name": "See Heiligenbronn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.097196,
+          49.3763747
+        ]
+      },
+      "id": "node/9839624830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9839624831",
+        "emergency": "suction_point",
+        "name": "See Heiligenbronn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0983518,
+          49.3769326
+        ]
+      },
+      "id": "node/9839624831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9839624833",
+        "emergency": "suction_point",
+        "name": "Löschteich Spindelbach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0900833,
+          49.362434
+        ]
+      },
+      "id": "node/9839624833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9839624836",
+        "emergency": "suction_point",
+        "name": "See Wolfskreut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.060982,
+          49.3353289
+        ]
+      },
+      "id": "node/9839624836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9839624837",
+        "emergency": "suction_point",
+        "name": "See Speckheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0358898,
+          49.339454
+        ]
+      },
+      "id": "node/9839624837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9839624838",
+        "emergency": "suction_point",
+        "name": "See Steinbruch Schmalfelden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.024821,
+          49.3288479
+        ]
+      },
+      "id": "node/9839624838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9852758991",
+        "emergency": "suction_point",
+        "name": "Dorfweiher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3624538,
+          49.492258
+        ]
+      },
+      "id": "node/9852758991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9862398460",
+        "emergency": "suction_point",
+        "name": "Saugstelle fliessender Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4700054,
+          49.4923781
+        ]
+      },
+      "id": "node/9862398460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9862398461",
+        "emergency": "suction_point",
+        "name": "Fliessender Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.474785,
+          49.4881228
+        ]
+      },
+      "id": "node/9862398461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9862398474",
+        "emergency": "suction_point",
+        "name": "Saugstelle Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4708237,
+          49.4921005
+        ]
+      },
+      "id": "node/9862398474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9862398475",
+        "emergency": "suction_point",
+        "name": "Saugstelle Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4711535,
+          49.4919393
+        ]
+      },
+      "id": "node/9862398475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9862398491",
+        "emergency": "suction_point",
+        "name": "Fliessender Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4742142,
+          49.4887777
+        ]
+      },
+      "id": "node/9862398491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9862398506",
+        "emergency": "suction_point",
+        "name": "Saugstelle Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4697214,
+          49.4927523
+        ]
+      },
+      "id": "node/9862398506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9862398507",
+        "emergency": "suction_point",
+        "name": "Saugstelle Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.469655,
+          49.4930747
+        ]
+      },
+      "id": "node/9862398507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9863960840",
+        "description": "Alter Hochbehälter an der Mehle",
+        "emergency": "suction_point",
+        "survey:date": "2022-07-03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7978971,
+          49.757194
+        ]
+      },
+      "id": "node/9863960840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9876815775",
+        "emergency": "suction_point",
+        "name": "Ansaugstelle ASV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8997893,
+          49.5194451
+        ]
+      },
+      "id": "node/9876815775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9878798202",
+        "emergency": "suction_point",
+        "name": "Saugstelle Wehr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5004653,
+          49.4777092
+        ]
+      },
+      "id": "node/9878798202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9878801033",
+        "emergency": "suction_point",
+        "name": "Saugstelle nur bei hohem Wasserstand - begrenzt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5021275,
+          49.4760154
+        ]
+      },
+      "id": "node/9878801033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9878801037",
+        "emergency": "suction_point",
+        "name": "Saugstelle Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.50293,
+          49.47735
+        ]
+      },
+      "id": "node/9878801037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9878801053",
+        "emergency": "suction_point",
+        "name": "Staussee Anfahrbare Wasserentnahmestelle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4886609,
+          49.4808752
+        ]
+      },
+      "id": "node/9878801053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9891819170",
+        "emergency": "suction_point",
+        "name": "fliessender Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5418388,
+          49.4604749
+        ]
+      },
+      "id": "node/9891819170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9891819177",
+        "emergency": "suction_point",
+        "name": "fliessender Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5445489,
+          49.4582223
+        ]
+      },
+      "id": "node/9891819177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9891819182",
+        "emergency": "suction_point",
+        "name": "fliessender Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5161331,
+          49.475543
+        ]
+      },
+      "id": "node/9891819182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9891819183",
+        "emergency": "suction_point",
+        "name": "fliessender Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5307654,
+          49.4654686
+        ]
+      },
+      "id": "node/9891819183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9891819192",
+        "emergency": "suction_point",
+        "name": "fliessender Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5388034,
+          49.4627444
+        ]
+      },
+      "id": "node/9891819192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9891819193",
+        "emergency": "suction_point",
+        "name": "fliessender Bach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5420294,
+          49.4605063
+        ]
+      },
+      "id": "node/9891819193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9891819209",
+        "emergency": "suction_point",
+        "name": "Dorfweiher - im Sommer eingeschrängt Nutzbar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5214407,
+          49.4591821
+        ]
+      },
+      "id": "node/9891819209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9945212731",
+        "description": "Diebach Wasserentnahme Rempelsbach",
+        "emergency": "suction_point",
+        "name": "Wasserentnahme Bach",
+        "ref": "Diebach Wasserentnahme fließendes Gewässer",
+        "survey:date": "2022-08-10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5586553,
+          49.5943177
+        ]
+      },
+      "id": "node/9945212731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9945240910",
+        "description": "Achtung, Pumpe am Objekt Rummel notwendig!",
+        "emergency": "suction_point",
+        "name": "Schauerheim Wasserentnahme Aisch",
+        "ref": "Schauerheim Wasserentnahme fließendes Gewässer",
+        "survey:date": "2022-08-10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5618042,
+          49.5713629
+        ]
+      },
+      "id": "node/9945240910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9945270943",
+        "description": "Diebach Wasserentnahme Weiher",
+        "emergency": "suction_point",
+        "name": "Diebach Wasserentnahme Weiher",
+        "ref": "Diebach Wasserentnahme stehendes Gewässer",
+        "survey:date": "2022-08-10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5601358,
+          49.5942969
+        ]
+      },
+      "id": "node/9945270943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9958731130",
+        "emergency": "suction_point",
+        "name": "Neustadt a.d. Aisch stehendes Gewässer Bleiche",
+        "ref": "Neustadt a.d. Aisch stehendes Gewässer",
+        "survey:date": "2022-08-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6045961,
+          49.5801513
+        ]
+      },
+      "id": "node/9958731130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9958732638",
+        "emergency": "suction_point",
+        "name": "Neustadt a.d. Aisch fließendes Gewässer Aisch",
+        "ref": "Neustadt a.d. Aisch fließendes Gewässer",
+        "survey:date": "2022-08-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6023565,
+          49.5807339
+        ]
+      },
+      "id": "node/9958732638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9963771346",
+        "description": "Stöckach Wehr zum aufstauen",
+        "emergency": "suction_point",
+        "name": "Stöckach Wehr zum aufstauen",
+        "ref": "Stöckach fließendes Gewässer",
+        "survey:date": "2022-08-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5904073,
+          49.5623762
+        ]
+      },
+      "id": "node/9963771346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9963796967",
+        "description": "Hasenlohe Objekt Eberstation Löschwasserbehälter Entnahmestelle",
+        "emergency": "suction_point",
+        "name": "Hasenlohe Objekt Eberstation Löschwasserbehälter Entnahmestelle",
+        "ref": "Hasenlohe Objekt Eberstation ",
+        "survey:date": "2022-08-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5376482,
+          49.5776939
+        ]
+      },
+      "id": "node/9963796967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9963864742",
+        "description": "Neustadt a.d. Aisch Objekt Holding Kühnl",
+        "emergency": "suction_point",
+        "name": "Neustadt a.d. Aisch fließendes Gewässer Entnahmestelle",
+        "ref": "Neustadt a.d. Aisch Objekt Holding Kühnl fließendes Gewässer",
+        "survey:date": "2022-08-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5735469,
+          49.5796453
+        ]
+      },
+      "id": "node/9963864742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9963875892",
+        "description": "Neustadt a.d. Aisch Löschwasserbehälter Objekt Onlineprinter Werk 3 Wasserentnahme",
+        "emergency": "suction_point",
+        "name": "Neustadt a.d. Aisch Löschwasserbehälter Objekt Onlineprinter Werk 3 Wasserentnahme",
+        "ref": "Neustadt a.d. Aisch Löschwasserbehälter",
+        "survey:date": "2022-08-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6372386,
+          49.5807392
+        ]
+      },
+      "id": "node/9963875892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990626437",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8976543,
+          49.5181217
+        ]
+      },
+      "id": "node/9990626437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990650252",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8831194,
+          49.5125179
+        ]
+      },
+      "id": "node/9990650252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10154453439",
+        "description": "Bieberdamm ",
+        "emergency": "suction_point",
+        "name": "3",
+        "survey:date": "2022-11-03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3980097,
+          49.5980239
+        ]
+      },
+      "id": "node/10154453439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10154646750",
+        "emergency": "suction_point",
+        "name": "Alter Klärteich",
+        "survey:date": "2022-11-03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4092109,
+          49.5953028
+        ]
+      },
+      "id": "node/10154646750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10170912450",
+        "emergency": "suction_point",
+        "survey:date": "2022-11-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7594562,
+          49.588321
+        ]
+      },
+      "id": "node/10170912450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10170947369",
+        "emergency": "suction_point",
+        "survey:date": "2022-11-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7594669,
+          49.5883227
+        ]
+      },
+      "id": "node/10170947369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10293500671",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2300933,
+          49.2107976
+        ]
+      },
+      "id": "node/10293500671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10300838299",
+        "emergency": "suction_point",
+        "survey:date": "2023-01-02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0765201,
+          49.8079629
+        ]
+      },
+      "id": "node/10300838299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10300864425",
+        "emergency": "suction_point",
+        "survey:date": "2023-01-02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0776547,
+          49.8106268
+        ]
+      },
+      "id": "node/10300864425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10303020993",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6944136,
+          49.2483823
+        ]
+      },
+      "id": "node/10303020993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10560373617",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.653415,
+          49.3079926
+        ]
+      },
+      "id": "node/10560373617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10657622270",
+        "emergency": "suction_point",
+        "name": "Wasserentnahme Richtung Altheim",
+        "survey:date": "2023-02-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5132025,
+          49.5512059
+        ]
+      },
+      "id": "node/10657622270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10657644296",
+        "description": "Wasserentnahmestelle für 2 Pumpen",
+        "emergency": "suction_point",
+        "survey:date": "2023-02-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5078757,
+          49.549323
+        ]
+      },
+      "id": "node/10657644296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10657663474",
+        "emergency": "suction_point",
+        "survey:date": "2023-02-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5334693,
+          49.5391244
+        ]
+      },
+      "id": "node/10657663474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10657679737",
+        "emergency": "suction_point",
+        "name": "Wasserentnahme Krautbeet",
+        "survey:date": "2023-02-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5189049,
+          49.5518045
+        ]
+      },
+      "id": "node/10657679737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10681055884",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5476608,
+          49.6191003
+        ]
+      },
+      "id": "node/10681055884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10681058330",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5467757,
+          49.6203376
+        ]
+      },
+      "id": "node/10681058330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10681058331",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5527248,
+          49.6240699
+        ]
+      },
+      "id": "node/10681058331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10681059465",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5479827,
+          49.6191073
+        ]
+      },
+      "id": "node/10681059465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10681391190",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5773958,
+          49.6292545
+        ]
+      },
+      "id": "node/10681391190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10681398082",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5462661,
+          49.6312489
+        ]
+      },
+      "id": "node/10681398082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10681565973",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5742522,
+          49.6283232
+        ]
+      },
+      "id": "node/10681565973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10685461040",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5513623,
+          49.6296575
+        ]
+      },
+      "id": "node/10685461040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10685478755",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5541571,
+          49.6294664
+        ]
+      },
+      "id": "node/10685478755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10685482566",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5566194,
+          49.636252
+        ]
+      },
+      "id": "node/10685482566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10685486032",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5492862,
+          49.6242055
+        ]
+      },
+      "id": "node/10685486032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10729475611",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6745781,
+          49.2481475
+        ]
+      },
+      "id": "node/10729475611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10792391851",
+        "emergency": "suction_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.203846,
+          49.7365462
+        ]
+      },
+      "id": "node/10792391851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10810731586",
+        "emergency": "suction_point",
+        "name": "Löschteich am Gerätehaus FF Kirnberg",
+        "survey:date": "2023-04-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2368036,
+          49.3459698
+        ]
+      },
+      "id": "node/10810731586"
     }
   ]
 }
