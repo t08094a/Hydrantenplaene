@@ -1,0 +1,13 @@
+/****************************
+ * https://overpass-turbo.eu/
+ ****************************/
+
+// hydrant_überflur
+[out:json][timeout:25];
+(
+  node["emergency"="fire_hydrant"]["fire_hydrant:type"="pillar"](49.20683172516031,9.6240234375,49.9167460168401,11.590576171875);
+);
+out body;
+>;
+out skel qt;
+
