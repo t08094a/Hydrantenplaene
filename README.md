@@ -31,6 +31,14 @@ Usage:
 $ printmaps bearingline  51.98130  7.51479  90.0  1000.0  "1000 Meter"  scalebar-1000
 ```
 
+# Install Python requirements
+```bash
+python3 -m venv venv # If not created, creating virtualenv
+source ./venv/bin/activate # Activating virtualenv
+pip3 install -r ./requirements.txt # Installing dependencies
+deactivate # When you want to leave virtual environment
+```
+
 # Generate map
 printmaps ...
 
