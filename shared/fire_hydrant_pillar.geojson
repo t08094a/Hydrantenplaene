@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2023-04-19T17:00:54Z",
+  "timestamp": "2023-04-23T18:42:37Z",
   "features": [
     {
       "type": "Feature",
@@ -1668,6 +1668,8 @@
       "properties": {
         "@id": "node/854961449",
         "emergency": "fire_hydrant",
+        "fire_hydrant:diameter:signed": "no",
+        "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       },
       "geometry": {
@@ -4423,8 +4425,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.96194,
-          49.8586851
+          9.9619279,
+          49.8587294
         ]
       },
       "id": "node/973570570"
@@ -14005,22 +14007,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/1527179709",
-        "emergency": "fire_hydrant",
-        "fire_hydrant:type": "pillar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.067083,
-          49.4601591
-        ]
-      },
-      "id": "node/1527179709"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/1527199917",
         "emergency": "fire_hydrant",
         "fire_hydrant:diameter:signed": "no",
@@ -15563,8 +15549,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.0537878,
-          49.591042
+          11.0537805,
+          49.5910414
         ]
       },
       "id": "node/1582841938"
@@ -17751,8 +17737,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1731753286",
+        "colour": "gray",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:type": "pillar",
         "source": "survey"
@@ -19528,8 +19514,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1765886764",
+        "colour": "grey",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "grey",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
@@ -22659,8 +22645,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1815124913",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:type": "pillar"
       },
       "geometry": {
@@ -22740,8 +22726,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1821927071",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:type": "pillar"
       },
@@ -22792,8 +22778,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1821963505",
+        "colour": "gray",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:diameter": "80",
         "fire_hydrant:type": "pillar"
       },
@@ -22982,7 +22968,6 @@
         "colour": "red",
         "couplings": "2",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "80",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
@@ -24166,8 +24151,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1907090560",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:type": "pillar"
       },
@@ -24468,8 +24453,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1969853814",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
@@ -25066,8 +25051,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2054118940",
+        "colour": "gray",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:type": "pillar",
         "source": "survey"
       },
@@ -25084,8 +25069,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2054118941",
+        "colour": "gray",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:type": "pillar",
         "source": "survey"
       },
@@ -25510,8 +25495,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2122153843",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
         "source": "survey"
@@ -25529,8 +25514,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2122153914",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
         "source": "survey"
@@ -25548,8 +25533,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2122153919",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
         "source": "survey"
@@ -25987,8 +25972,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2145547582",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
@@ -26638,8 +26623,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2159408113",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
@@ -28513,7 +28498,7 @@
         "couplings": "3",
         "emergency": "fire_hydrant",
         "fire_hydrant:diameter": "100",
-        "fire_hydrant:position": "asphalt",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "name": "93",
         "note": "bei Hohenecker Str. 10",
@@ -28781,8 +28766,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2203015670",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:type": "pillar",
         "source": "survey;Bing"
       },
@@ -28799,8 +28784,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2203015681",
+        "colour": "gray",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:type": "pillar",
         "source": "survey;Bing"
       },
@@ -28906,8 +28891,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2203978810",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "fixme": "unsicher, zu überprüfen",
@@ -28926,8 +28911,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2203978816",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "source": "survey"
@@ -30195,8 +30180,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2277985220",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "80",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
@@ -30235,8 +30220,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2277991060",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "80",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
@@ -30675,8 +30660,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2290116457",
+        "colour": "black",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "black",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       },
@@ -30693,8 +30678,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2290116460",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:type": "pillar"
       },
       "geometry": {
@@ -30727,8 +30712,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2290116464",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "80",
         "fire_hydrant:type": "pillar",
         "mapillary": "4334259063253622",
@@ -30748,8 +30733,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2290116467",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "80",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
@@ -30784,8 +30769,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2290116473",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:type": "pillar",
         "source": "survey"
       },
@@ -30802,8 +30787,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2290116474",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:type": "pillar",
         "source": "survey"
       },
@@ -30820,8 +30805,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2290116478",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       },
@@ -30874,8 +30859,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2301175882",
+        "colour": "gray",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
@@ -33140,8 +33125,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2447853628",
+        "colour": "gray",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       },
@@ -33355,8 +33340,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2468561176",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
@@ -39463,11 +39448,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2641028988",
+        "colour": "red",
         "couplings": "2",
         "couplings:diameters": "B;B",
         "couplings:type": "Storz",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "80",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
@@ -39488,11 +39473,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2641045172",
+        "colour": "red",
         "couplings": "2",
         "couplings:diameters": "B;B",
         "couplings:type": "Storz",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "80",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
@@ -39513,11 +39498,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2641063366",
+        "colour": "gray",
         "couplings": "2",
         "couplings:diameters": "B;B",
         "couplings:type": "Storz",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
@@ -39538,11 +39523,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2641063367",
+        "colour": "gray",
         "couplings": "2",
         "couplings:diameters": "B;B",
         "couplings:type": "Storz",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
@@ -39563,11 +39548,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2641063370",
+        "colour": "gray",
         "couplings": "2",
         "couplings:diameters": "B;B",
         "couplings:type": "Storz",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
@@ -40431,11 +40416,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2659652718",
+        "colour": "red",
         "couplings": "2",
         "couplings:diameters": "B;B",
         "couplings:type": "Storz",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "80",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
@@ -40618,8 +40603,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2671576291",
+        "colour": "gray",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "source": "survey (unprecise)"
@@ -41288,8 +41273,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2689074757",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
@@ -41307,8 +41292,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2689074759",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
@@ -41491,8 +41476,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2694639197",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       },
@@ -49351,26 +49336,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2985853277",
-        "emergency": "fire_hydrant",
-        "fire_hydrant:diameter": "100",
-        "fire_hydrant:type": "pillar",
-        "note": "Schillerstr. 64",
-        "operator": "Stadtwerke Stein",
-        "ref": "OFH 185"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.0159612,
-          49.3999533
-        ]
-      },
-      "id": "node/2985853277"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/2985853702",
         "emergency": "fire_hydrant",
         "fire_hydrant:diameter": "100",
@@ -49828,8 +49793,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2987685538",
+        "colour": "gray",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:type": "pillar"
       },
@@ -49846,8 +49811,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2987716121",
+        "colour": "gray",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:type": "pillar"
       },
@@ -50754,6 +50719,7 @@
         "@id": "node/2994704191",
         "emergency": "fire_hydrant",
         "fire_hydrant:diameter": "100",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "note": "Herderweg 1",
         "operator": "Stadtwerke Stein",
@@ -50762,8 +50728,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.0204297,
-          49.3997089
+          11.0203873,
+          49.3997451
         ]
       },
       "id": "node/2994704191"
@@ -52861,8 +52827,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3014401585",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
@@ -58665,8 +58631,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3445965884",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar"
@@ -58684,8 +58650,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3445965885",
+        "colour": "red",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "parking_lot",
         "fire_hydrant:type": "pillar"
@@ -60104,8 +60070,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3707981945",
+        "colour": "gray",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "gray",
         "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "source": "survey (unprecise)"
@@ -90403,11 +90369,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5747319438",
+        "colour": "red",
         "couplings": "2",
         "couplings:diameters": "B;B",
         "couplings:type": "Storz",
         "emergency": "fire_hydrant",
-        "fire_hydrant:colour": "red",
         "fire_hydrant:diameter": "100",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
@@ -96796,6 +96762,8 @@
       "properties": {
         "@id": "node/6312389975",
         "emergency": "fire_hydrant",
+        "fire_hydrant:diameter:signed": "no",
+        "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
         "water_source": "main"
       },
@@ -101601,6 +101569,7 @@
       "properties": {
         "@id": "node/6854135399",
         "emergency": "fire_hydrant",
+        "fire_hydrant:diameter:signed": "no",
         "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       },
@@ -101905,6 +101874,7 @@
         "@id": "node/6900343140",
         "colour": "orange",
         "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "water_source": "main"
       },
@@ -107189,6 +107159,8 @@
       "properties": {
         "@id": "node/7425854785",
         "emergency": "fire_hydrant",
+        "fire_hydrant:diameter:signed": "no",
+        "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar",
         "mapillary": "1150020478756225",
         "source:geometry": "Mapillary 2019-05-28",
@@ -147400,6 +147372,7 @@
         "@id": "node/9438951058",
         "emergency": "fire_hydrant",
         "fire_hydrant:diameter": "100",
+        "fire_hydrant:position": "sidewalk",
         "fire_hydrant:type": "pillar"
       },
       "geometry": {
@@ -149409,6 +149382,7 @@
         "@id": "node/9613802309",
         "emergency": "fire_hydrant",
         "fire_hydrant:diameter": "100",
+        "fire_hydrant:position": "green",
         "fire_hydrant:type": "pillar",
         "ref": "198"
       },
@@ -174288,6 +174262,196 @@
         ]
       },
       "id": "node/10822901510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10825069779",
+        "colour": "red",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1464844,
+          49.8039326
+        ]
+      },
+      "id": "node/10825069779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10827025459",
+        "couplings:diameters": "B;B;A",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.538285,
+          49.4294933
+        ]
+      },
+      "id": "node/10827025459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10827057236",
+        "couplings:diameters": "B;B;A",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "pillar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5419853,
+          49.4302181
+        ]
+      },
+      "id": "node/10827057236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10827123585",
+        "couplings:diameters": "B;B;A",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5422547,
+          49.4277848
+        ]
+      },
+      "id": "node/10827123585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10828769675",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "parking_lot",
+        "fire_hydrant:type": "pillar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6645224,
+          49.2858687
+        ]
+      },
+      "id": "node/10828769675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10831556955",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "survey:date": "2023-04-22",
+        "water_source": "main"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2336386,
+          49.4184069
+        ]
+      },
+      "id": "node/10831556955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10831803605",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:diameter": "100",
+        "fire_hydrant:position": "sidewalk",
+        "fire_hydrant:type": "pillar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4104962,
+          49.369654
+        ]
+      },
+      "id": "node/10831803605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10833466195",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "pillar:type": "wet_barrel",
+        "survey:date": "2023-04-23",
+        "water_source": "main"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2317289,
+          49.4180788
+        ]
+      },
+      "id": "node/10833466195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10833488748",
+        "couplings:type": "Storz",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "pillar:type": "wet_barrel",
+        "survey:date": "2023-04-23",
+        "water_source": "main"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.233711,
+          49.4193098
+        ]
+      },
+      "id": "node/10833488748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10834306729",
+        "couplings": "3",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:diameter": "100",
+        "fire_hydrant:position": "green",
+        "fire_hydrant:type": "pillar",
+        "name": "93a",
+        "note": "bei Hohenecker Str. 26",
+        "ref": "93a",
+        "water_source": "main"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4926873,
+          49.5269671
+        ]
+      },
+      "id": "node/10834306729"
     }
   ]
 }
